@@ -1,0 +1,865 @@
+{
+  "categories": [
+    {
+      "department": "Computer Technology",
+      "semesters": [
+        {
+          "semester": "1st Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "ফিজিক্স-১",
+              "code": "25912",
+              "price": 180.0,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/25912-446x600.jpg",
+              "publication":"Haque-publications",
+              "button": "Add to Cart"
+              
+            },
+            {
+              "id": 2,
+              "name": "বেসিক ইলেকট্রিসিটি ",
+              "publication":"Haque-publications",
+              "code": "26711",
+              "price": 180,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26711-424x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "কম্পিউটার অফিস অ্যাপ্লিকেশন",
+              "publication":"Haque-publications",
+              "code": "28511",
+              "price": 150,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/28511.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "ম্যাথমেটিক্স-১ (সমাধান) ",
+              "publication":"Haque-publications",
+              "code": "25911S",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25911-Solution-2-scaled.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "ইঞ্জিনিয়ারিং ড্রইং ",
+              "publication":"Haque-publications",
+              "code": "21011",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/21011-3-441x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "ইংরেজী-১",
+              "publication":"Haque-publications",
+              "code": "25712",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25712-2-446x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "বাংলা-১ ",
+              "publication":"Haque-publications",
+              "code": "25711",
+              "price": 140,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25711-3.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 8,
+              "name": "ম্যাথমেটিক্স-১",
+              "publication":"Haque-publications",
+              "code": "25911",
+              "price": 140,
+              "cover": "https://haquepublications.com/wp-content/uploads/2023/10/25911-1-447x600.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "2nd Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "কেমিস্ট্রি",
+              "publication":"Haque-publications",
+              "code": "25913",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/25913-768x1057.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "কম্পিউটার গ্রাফিক্স ডিজাইন-১",
+              "publication":"Haque-publications",
+              "code": "28522",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/28522-431x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "বেসিক ইলেকট্রনিক্স",
+              "publication":"Haque-publications",
+              "code": "26811",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/26811-443x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "বাংলা-২",
+              "publication":"Haque-publications",
+              "code": "25721",
+              "price": 200,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25721-430x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 12,
+              "name": "পাইথন প্রোগ্রামিং",
+              "publication":"Haque-publications",
+              "code": "28521",
+              "price": 200,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/28521-435x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 13,
+              "name": "ম্যাথমেটিক্স-২",
+              "publication":"Haque-publications",
+              "code": "25921",
+              "price": 165,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25921-447x600.jpeg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 14,
+              "name": "ম্যাথমেটিক্স-২",
+              "publication":"Haque-publications",
+              "code": "25921-S",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25921s-445x600.jpeg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "4th Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "ওয়েব ডিজাইন অ্যান্ড ডেভেলপমেন্ট-১",
+              "publication":"Haque-publications",
+              "code": "28544",
+              "price": 140.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/28544-2-434x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "কম্পিউটার পেরিফেরালস্ অ্যান্ড ইন্টারফেসিং",
+              "publication":"Haque-publications",
+              "code": "28543",
+              "price": 160.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/28543.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "ডিজিটাল ইলেকট্রনিক্স-২",
+              "publication":"Haque-publications",
+              "code": "26841",
+              "price": 150,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26841-443x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "জাভা প্রোগ্রামিং",
+              "publication":"Haque-publications",
+              "code": "28541",
+              "price": 125.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/28541.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "ডাটা স্ট্রাকচার অ্যান্ড অ্যালগরিদম",
+              "publication":"Haque-publications",
+              "code": "28542",
+              "price": 220,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/28542-442x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "এনভায়রনমেন্টাল স্টাডিজ",
+              "publication":"Haque-publications",
+              "code": "29041",
+              "price": 180.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/29041-435x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "বিজনেস কমিউনিকেশন ",
+              "publication":"Haque-publications",
+              "code": "25831",
+              "price": 250,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25831-1-436x600.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "6th Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "কম্পিউটার নেটওয়ার্কিং",
+              "publication":"Haque-publications",
+              "code": "28562",
+              "price": 160.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/28562-1-446x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "সেন্সর অ্যান্ড আইওটি সিস্টেম",
+              "publication":"Haque-publications",
+              "code": "28563",
+              "price": 210,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/28563-1-447x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "ওয়েব ডেভেলপমেন্ট প্রজেক্ট",
+              "publication":"Haque-publications",
+              "code": "28566",
+              "price": 220.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/28566-450x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "মাইক্রোকন্ট্রোলার বেইজড সিস্টেম ডিজাইন অ্যান্ড ডেভেলপমেন্ট ",
+              "publication":"Haque-publications",
+              "code": "28564",
+              "price": 160.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/28564-444x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "ডাটাবেস ম্যানেজমেন্ট সিস্টেম",
+              "publication":"Haque-publications",
+              "code": "28561",
+              "price":160.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/28561.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "সার্ভেইল্যান্স সিকিউরিটি সিস্টেম",
+              "publication":"Haque-publications",
+              "code": "28565",
+              "price": 120.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/28565.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "প্রিন্সিপলস অব মার্কেটিং",
+              "publication":"Haque-publications",
+              "code": "25851",
+              "price": 100.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25851-1-432x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 8,
+              "name": "ইন্ডাস্টিয়াল ম্যানেজমেন্ট",
+              "publication":"Haque-publications",
+              "code": "25852",
+              "price": 130.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25852-1-440x600.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "department": "Electrical Technology",
+      "semesters": [
+        {
+          "semester": "1st Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং ম্যাটেরিয়ালস্‌",
+              "publication":"Haque-publications",
+              "code": "26712",
+              "price": 80,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/26712-1-433x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "ফিজিক্স-১ ",
+              "publication":"Haque-publications",
+              "code": "25912",
+              "price": 180,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/25912-scaled.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "বেসিক ইলেকট্রিসিটি",
+              "publication":"Haque-publications",
+              "code": "26711",
+              "price": 180,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26711-424x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "ইংরেজী-১",
+              "code": "25712",
+              "publication":"Haque-publications",
+              "price": 130,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25812-444x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "ফিজিক্যাল এডুকেশন অ্যান্ড লাইফ স্কিল ডেভেলপমেন্ট ",
+              "publication":"Haque-publications",
+              "code": "25812",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25812-444x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "ম্যাথমেটিক্স-১ (সমাধান)",
+              "publication":"Haque-publications",
+              "code": "25911S",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25911-Solution-2-scaled.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "ইঞ্জিনিয়ারিং ড্রইং",
+              "publication":"Haque-publications",
+              "code": "21011",
+              "price": 100,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/21011-3-scaled.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "বাংলা-১ ",
+              "publication":"Haque-publications",
+              "code": "25711",
+              "price": 180,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25711-3-442x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "ম্যাথমেটিক্স-১ ",
+              "publication":"Haque-publications",
+              "code": "25911",
+              "price": 170,
+              "cover": "https://haquepublications.com/wp-content/uploads/2023/10/25911-1-447x600.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "2nd Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "ফিজিক্স-২ ",
+              "publication":"Haque-publications",
+              "code": "25922",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/25922-1-435x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "ইলেকট্রিক্যাল সার্কিটস-১",
+              "publication":"Haque-publications",
+              "code": "26721",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26721-431x600.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Physics-2",
+              "publication":"Haque-publications",
+              "code": "65722",
+              "price": 140,
+              "cover": "https://i.ibb.co/WFtMhgK/physics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Graphics Design",
+              "publication":"Haque-publications",
+              "code": "66622",
+              "price": 180,
+              "cover": "https://i.ibb.co/kHH8jch/graphics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "Web Design",
+              "publication":"Haque-publications",
+              "code": "66623",
+              "price": 200,
+              "cover": "https://i.ibb.co/YTdV4L1/web-design.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Social Science",
+              "publication":"Haque-publications",
+              "code": "65821",
+              "price": 130,
+              "cover": "https://i.ibb.co/Dk9Spvc/social-science.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Computer Application",
+              "publication":"Haque-publications",
+              "code": "66612",
+              "price": 160,
+              "cover": "https://i.ibb.co/9rL6p7D/computer-applications.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "4th Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "Digital Electronics",
+              "publication":"Haque-publications",
+              "code": "66631",
+              "price": 200,
+              "cover": "https://i.ibb.co/XzM7Xp8/digital-electronics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "Database Management",
+              "publication":"Haque-publications",
+              "code": "66632",
+              "price": 190,
+              "cover": "https://i.ibb.co/8zmxVjc/database.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Mathematics-3",
+              "publication":"Haque-publications",
+              "code": "65931",
+              "price": 150,
+              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Data Structure",
+              "publication":"Haque-publications",
+              "code": "66633",
+              "price": 210,
+              "cover": "https://i.ibb.co/0qGYgFS/data-structure.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "Object Oriented Programming",
+              "publication":"Haque-publications",
+              "code": "66634",
+              "price": 220,
+              "cover": "https://i.ibb.co/LZcFkkv/oop.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Networking Fundamentals",
+              "publication":"Haque-publications",
+              "code": "66635",
+              "price": 200,
+              "cover": "https://i.ibb.co/pj6fwzk/networking.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Project Work-I",
+              "publication":"Haque-publications",
+              "code": "66636",
+              "price": 250,
+              "cover": "https://i.ibb.co/vZcWSRw/project.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "6th Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "Microprocessor",
+              "publication":"Haque-publications",
+              "code": "66641",
+              "price": 220,
+              "cover": "https://i.ibb.co/dfVz6F5/microprocessor.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "Operating System",
+              "publication":"Haque-publications",
+              "code": "66642",
+              "price": 210,
+              "cover": "https://i.ibb.co/QmtTZK8/os.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Web Development",
+              "publication":"Haque-publications",
+              "code": "66643",
+              "price": 240,
+              "cover": "https://i.ibb.co/kBrKjyv/web-development.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Software Engineering",
+              "publication":"Haque-publications",
+              "code": "66644",
+              "price": 230,
+              "cover": "https://i.ibb.co/RjMrfLJ/software-engineering.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "E-Commerce",
+              "publication":"Haque-publications",
+              "code": "66645",
+              "price": 200,
+              "cover": "https://i.ibb.co/VL9V8cG/ecommerce.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Mathematics-4",
+              "publication":"Haque-publications",
+              "code": "65941",
+              "price": 160,
+              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Project Work-II",
+              "publication":"Haque-publications",
+              "code": "66646",
+              "price": 270,
+              "cover": "https://i.ibb.co/vZcWSRw/project.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "department": "Civil Technology",
+      "semesters": [
+        {
+          "semester": "1st Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "Computer Fundamentals",
+              "publication":"Haque-publications",
+              "code": "66611",
+              "price": 180,
+              "cover": "https://i.ibb.co/QmvZdfM/computer-fundamentals.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "Mathematics-1",
+              "publication":"Haque-publications",
+              "code": "65911",
+              "price": 150,
+              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Physics-1",
+              "publication":"Haque-publications",
+              "code": "65712",
+              "price": 140,
+              "cover": "https://i.ibb.co/WFtMhgK/physics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Chemistry",
+              "publication":"Haque-publications",
+              "code": "65713",
+              "price": 130,
+              "cover": "https://i.ibb.co/2M4LpQF/chemistry.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "English",
+              "publication":"Haque-publications",
+              "code": "65812",
+              "price": 120,
+              "cover": "https://i.ibb.co/Jt3HsKb/english.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Bangla",
+              "publication":"Haque-publications",
+              "code": "65811",
+              "price": 120,
+              "cover": "https://i.ibb.co/RzhLWjG/bangla.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Basic Electrical Engineering",
+              "publication":"Haque-publications",
+              "code": "66711",
+              "price": 160,
+              "cover": "https://i.ibb.co/VQnyc1x/electricity.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "2nd Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "Programming in C",
+              "publication":"Haque-publications",
+              "code": "66621",
+              "price": 190,
+              "cover": "https://i.ibb.co/fFHb4MC/c-programming.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "Mathematics-2",
+              "publication":"Haque-publications",
+              "code": "65921",
+              "price": 150,
+              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Physics-2",
+              "publication":"Haque-publications",
+              "code": "65722",
+              "price": 140,
+              "cover": "https://i.ibb.co/WFtMhgK/physics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Graphics Design",
+              "publication":"Haque-publications",
+              "code": "66622",
+              "price": 180,
+              "cover": "https://i.ibb.co/kHH8jch/graphics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "Web Design",
+              "publication":"Haque-publications",
+              "code": "66623",
+              "price": 200,
+              "cover": "https://i.ibb.co/YTdV4L1/web-design.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Social Science",
+              "publication":"Haque-publications",
+              "code": "65821",
+              "price": 130,
+              "cover": "https://i.ibb.co/Dk9Spvc/social-science.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Computer Application",
+              "publication":"Haque-publications",
+              "code": "66612",
+              "price": 160,
+              "cover": "https://i.ibb.co/9rL6p7D/computer-applications.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "4th Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "Digital Electronics",
+              "publication":"Haque-publications",
+              "code": "66631",
+              "price": 200,
+              "cover": "https://i.ibb.co/XzM7Xp8/digital-electronics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "Database Management",
+              "publication":"Haque-publications",
+              "code": "66632",
+              "price": 190,
+              "cover": "https://i.ibb.co/8zmxVjc/database.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Mathematics-3",
+              "publication":"Haque-publications",
+              "code": "65931",
+              "price": 150,
+              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Data Structure",
+              "publication":"Haque-publications",
+              "code": "66633",
+              "price": 210,
+              "cover": "https://i.ibb.co/0qGYgFS/data-structure.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "Object Oriented Programming",
+              "publication":"Haque-publications",
+              "code": "66634",
+              "price": 220,
+              "cover": "https://i.ibb.co/LZcFkkv/oop.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Networking Fundamentals",
+              "publication":"Haque-publications",
+              "code": "66635",
+              "price": 200,
+              "cover": "https://i.ibb.co/pj6fwzk/networking.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Project Work-I",
+              "publication":"Haque-publications",
+              "code": "66636",
+              "price": 250,
+              "cover": "https://i.ibb.co/vZcWSRw/project.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        },
+        {
+          "semester": "6th Semester",
+          "subjects": [
+            {
+              "id": 1,
+              "name": "Microprocessor",
+              "code": "66641",
+              "price": 220,
+              "cover": "https://i.ibb.co/dfVz6F5/microprocessor.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 2,
+              "name": "Operating System",
+              "code": "66642",
+              "price": 210,
+              "cover": "https://i.ibb.co/QmtTZK8/os.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 3,
+              "name": "Web Development",
+              "code": "66643",
+              "price": 240,
+              "cover": "https://i.ibb.co/kBrKjyv/web-development.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 4,
+              "name": "Software Engineering",
+              "code": "66644",
+              "price": 230,
+              "cover": "https://i.ibb.co/RjMrfLJ/software-engineering.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 5,
+              "name": "E-Commerce",
+              "code": "66645",
+              "price": 200,
+              "cover": "https://i.ibb.co/VL9V8cG/ecommerce.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 6,
+              "name": "Mathematics-4",
+              "code": "65941",
+              "price": 160,
+              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 7,
+              "name": "Project Work-II",
+              "code": "66646",
+              "price": 270,
+              "cover": "https://i.ibb.co/vZcWSRw/project.jpg",
+              "button": "Add to Cart"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
