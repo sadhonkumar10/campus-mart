@@ -1,7 +1,7 @@
 import { MdAddShoppingCart } from "react-icons/md";
 import { IoBagAdd } from "react-icons/io5";
 
-export default function BookList({ books }) {
+export default function BookList({ books, onAddToCart  }) {
   return (
     <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       {books.map((book, i) => (
@@ -37,6 +37,7 @@ export default function BookList({ books }) {
             <button
               className=" flex items-center gap-2  bg-amber-500 text-white
                 hover:bg-gray-300 h-[35px] px-5 rounded-2xl font-bold duration-300 hover:text-black"
+                onClick={() => onAddToCart(book)}
             >
               <p className="font-bold text-xl ">
                 {" "}

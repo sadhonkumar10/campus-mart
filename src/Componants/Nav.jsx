@@ -1,7 +1,10 @@
 import React from 'react'
 import ButtonAll from './ButtonAll'
+import { CgShoppingCart } from 'react-icons/cg'
 
-export default function Nav() {
+
+
+export default function Nav({searchText,  setSearchText, cartCount}) {
   return (
 
     
@@ -22,6 +25,8 @@ export default function Nav() {
                 type="text"
                 placeholder="Search here..."
                 className="w-80  px-4 py-2 border border-black focus:ring-2 focus:ring-blue-500 focus:border-transparent focus:outline-none placeholder:text-gray-400  rounded-l-2xl rounded-r-none rounded-t-none "
+                value={searchText}
+                onChange={(e)=> setSearchText(e.target.value)}
               />
               <button
                 className="btn h-[42px] bg-linear-to-r from-[#2193b0] to-[#6dd5ed] text-white border-none 
@@ -39,7 +44,14 @@ export default function Nav() {
             <div className=" flex items-center gap-[3px] lg:gap-8  text-white">
               <ButtonAll text="Register" />
 
-              <i className=" fa-solid fa-cart-shopping lg:text-2xl text-gray-500 cursor-pointer"></i>
+             <div className="relative text-white cursor-pointer">
+          <CgShoppingCart size={27} />
+          {cartCount > 0 && (
+            <span className="absolute -top-2 -right-2 bg-black text-black  text-xs font-semibold px-1.5 py-0.5 rounded-full">
+              {cartCount}
+            </span>
+          )}
+        </div>
 
               <i className="fa-solid fa-bell lg:text-2xl text-gray-500 cursor-pointer"></i>
               <div className=" md:hidden lg:hidden">

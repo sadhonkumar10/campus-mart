@@ -2,17 +2,16 @@ import React, { useEffect, useState } from "react";
 import BookCategories from "./BookCategories";
 import BookList from "./BookList";
 
-export default function Book() {
+export default function Book({ searchText ,onAddToCart }) {
   const [books, setBooks] = useState([]);
   const [selectedDepartment, setSelectedDepartment] = useState("All");
   const [showAll, setShowAll] = useState(false);
-  
-
 
   useEffect(() => {
     fetch("/Department.json")
       .then((res) => res.json())
-      .then((data) => setBooks(data.categories));
+      .then((data) => setBooks(data.categories))
+      .catch((err) => console.error("Error loading JSON:", err));
   }, []);
 
   const categories = ["All", ...books.map((b) => b.department)];
@@ -21,7 +20,6 @@ export default function Book() {
     selectedDepartment === "All"
       ? books
       : books.filter((b) => b.department === selectedDepartment);
-      
 
   return (
     <div className="p-5">
@@ -48,14 +46,34 @@ export default function Book() {
               {dept.department}
             </h2>
 
-            {visibleSemesters.map((semester, semIndex) => (
-              <div key={semIndex} className="mb-5">
-                <h3 className="text-lg font-semibold mb-2">
-                  {semester.semester}
-                </h3>
-                <BookList books={semester.subjects} />
-              </div>
-            ))}
+            {visibleSemesters.map((semester, semIndex) => {
+             
+              const filteredSubjects = semester.subjects.filter((subject) => {
+                const lowerSearch = searchText.toLowerCase();
+                return (
+                  subject.name.toLowerCase().includes(lowerSearch) ||
+                  subject.code.toLowerCase().includes(lowerSearch)
+                );
+              });
+
+              return (
+                <div key={semIndex} className="mb-5">
+                  <h3 className="text-lg font-semibold mb-2">
+                    {semester.semester}
+                  </h3>
+
+                  {filteredSubjects.length > 0 ? (
+                    <BookList books={filteredSubjects} 
+                    onAddToCart={onAddToCart}
+                    
+                    />
+                    
+                  ) : (
+                    <p className="text-gray-500 italic">No subject found</p>
+                  )}
+                </div>
+              );
+            })}
 
             {selectedDepartment === "All" && dept.semesters.length > 1 && (
               <div className="text-center mt-4">
