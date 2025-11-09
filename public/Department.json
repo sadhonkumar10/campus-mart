@@ -408,47 +408,56 @@
             },
             {
               "id": 3,
-              "name": "Physics-2",
+              "name": "ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং ড্রয়িং",
               "publication":"Haque-publications",
-              "code": "65722",
+              "code": "26722",
               "price": 140,
-              "cover": "https://i.ibb.co/WFtMhgK/physics.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/04/26722-1-430x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 4,
-              "name": "Graphics Design",
+              "name": "বেসিক ইলেকট্রনিক্স",
               "publication":"Haque-publications",
-              "code": "66622",
+              "code": "26811",
               "price": 180,
-              "cover": "https://i.ibb.co/kHH8jch/graphics.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/26811-scaled.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 5,
-              "name": "Web Design",
+              "name": "বাংলা-২",
               "publication":"Haque-publications",
-              "code": "66623",
+              "code": "25721",
               "price": 200,
-              "cover": "https://i.ibb.co/YTdV4L1/web-design.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25721-430x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 6,
-              "name": "Social Science",
+              "name": "ম্যাথমেটিক্স-২ ",
               "publication":"Haque-publications",
-              "code": "65821",
-              "price": 130,
-              "cover": "https://i.ibb.co/Dk9Spvc/social-science.jpg",
+              "code": "25921",
+              "price": 165,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25921-447x600.jpeg",
               "button": "Add to Cart"
             },
             {
               "id": 7,
-              "name": "Computer Application",
+              "name": "ম্যাথমেটিক্স-২",
               "publication":"Haque-publications",
-              "code": "66612",
+              "code": "25921-S",
               "price": 160,
-              "cover": "https://i.ibb.co/9rL6p7D/computer-applications.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25921s-445x600.jpeg",
+              "button": "Add to Cart"
+            },
+            {
+              "id": 8,
+              "name": "English-2",
+              "publication":"Haque-publications",
+              "code": "25722",
+              "price": 250,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/03/25722-435x600.jpg",
               "button": "Add to Cart"
             }
           ]
@@ -458,65 +467,65 @@
           "subjects": [
             {
               "id": 1,
-              "name": "Digital Electronics",
+              "name": "অ্যাপ্লাইড মেকানিক্স",
               "publication":"Haque-publications",
-              "code": "66631",
-              "price": 200,
-              "cover": "https://i.ibb.co/XzM7Xp8/digital-electronics.jpg",
+              "code": "27044",
+              "price": 215,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/27044-1.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 2,
-              "name": "Database Management",
+              "name": "ডিজিটাল ইলেকট্রনিক্স",
               "publication":"Haque-publications",
-              "code": "66632",
-              "price": 190,
-              "cover": "https://i.ibb.co/8zmxVjc/database.jpg",
+              "code": "26845",
+              "price": 170,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/26845-1-446x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 3,
-              "name": "Mathematics-3",
+              "name": "ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং প্রজেক্ট-১ ",
               "publication":"Haque-publications",
-              "code": "65931",
+              "code": "26743",
               "price": 150,
-              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/26743-scaled.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 4,
-              "name": "Data Structure",
+              "name": "ইলেকট্রিক্যাল ইনস্টলেশন, প্ল্যানিং অ্যান্ড এস্টিমেটিং",
               "publication":"Haque-publications",
-              "code": "66633",
+              "code": "26741",
               "price": 210,
-              "cover": "https://i.ibb.co/0qGYgFS/data-structure.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26741-442x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 5,
-              "name": "Object Oriented Programming",
+              "name": "অ্যাকাউন্টিং",
               "publication":"Haque-publications",
-              "code": "66634",
-              "price": 220,
-              "cover": "https://i.ibb.co/LZcFkkv/oop.jpg",
+              "code": "25841",
+              "price": 145,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/WhatsApp-Image-2025-08-17-at-10.40.42-AM-437x600.jpeg",
               "button": "Add to Cart"
             },
             {
               "id": 6,
-              "name": "Networking Fundamentals",
+              "name": "ডিসি মেশিন",
               "publication":"Haque-publications",
-              "code": "66635",
-              "price": 200,
-              "cover": "https://i.ibb.co/pj6fwzk/networking.jpg",
+              "code": "26742",
+              "price": 145,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26742.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 7,
-              "name": "Project Work-I",
+              "name": "সোস্যাল সাইন্স",
               "publication":"Haque-publications",
-              "code": "66636",
-              "price": 250,
-              "cover": "https://i.ibb.co/vZcWSRw/project.jpg",
+              "code": "25811",
+              "price": 140,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/04/25811-441x600.jpg",
               "button": "Add to Cart"
             }
           ]
@@ -526,65 +535,65 @@
           "subjects": [
             {
               "id": 1,
-              "name": "Microprocessor",
+              "name": "টিভি স্টুডিও অ্যান্ড ব্রডকাস্টিং",
               "publication":"Haque-publications",
-              "code": "66641",
-              "price": 220,
-              "cover": "https://i.ibb.co/dfVz6F5/microprocessor.jpg",
+              "code": "26861",
+              "price": 120,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/26861-440x600.jpeg",
               "button": "Add to Cart"
             },
             {
               "id": 2,
-              "name": "Operating System",
+              "name": "পিসিবি ডিজাইন অ্যান্ড প্রোটোটাইপিং",
               "publication":"Haque-publications",
-              "code": "66642",
-              "price": 210,
-              "cover": "https://i.ibb.co/QmtTZK8/os.jpg",
+              "code": "26863",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/26863-443x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 3,
-              "name": "Web Development",
+              "name": "ট্রান্সমিশন অ্যান্ড ডিস্ট্রিবিউশন অব ইলেকট্রিক্যাল পাওয়ার",
               "publication":"Haque-publications",
-              "code": "66643",
-              "price": 240,
-              "cover": "https://i.ibb.co/kBrKjyv/web-development.jpg",
+              "code": "26764",
+              "price": 230,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/26764-1-451x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 4,
-              "name": "Software Engineering",
+              "name": "মাইক্রোকন্ট্রোলার অ্যান্ড ইমবেডড সিস্টেমস",
               "publication":"Haque-publications",
-              "code": "66644",
-              "price": 230,
-              "cover": "https://i.ibb.co/RjMrfLJ/software-engineering.jpg",
+              "code": "26862",
+              "price": 155.00,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/07/26862-1.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 5,
-              "name": "E-Commerce",
+              "name": "ইলেকট্রিক্যাল অ্যান্ড ইলেকট্রনিক মেজারমেন্টস-২",
               "publication":"Haque-publications",
-              "code": "66645",
-              "price": 200,
-              "cover": "https://i.ibb.co/VL9V8cG/ecommerce.jpg",
+              "code": "26763",
+              "price": 130,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/06/26763.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 6,
-              "name": "Mathematics-4",
+              "name": "এনভায়রনমেন্টাল স্টাডিজ",
               "publication":"Haque-publications",
-              "code": "65941",
+              "code": "29041",
               "price": 160,
-              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/29041.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 7,
-              "name": "Project Work-II",
+              "name": "এসি মেশিন-১ ",
               "publication":"Haque-publications",
-              "code": "66646",
-              "price": 270,
-              "cover": "https://i.ibb.co/vZcWSRw/project.jpg",
+              "code": "26761",
+              "price": 180,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/26761-446x600.jpg",
               "button": "Add to Cart"
             }
           ]
@@ -599,65 +608,83 @@
           "subjects": [
             {
               "id": 1,
-              "name": "Computer Fundamentals",
+              "name": "কেমিস্ট্রি",
               "publication":"Haque-publications",
-              "code": "66611",
-              "price": 180,
-              "cover": "https://i.ibb.co/QmvZdfM/computer-fundamentals.jpg",
+              "code": "25913",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/25913-436x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 2,
-              "name": "Mathematics-1",
+              "name": "বেসিক ইলেকট্রিসিটি",
               "publication":"Haque-publications",
-              "code": "65911",
-              "price": 150,
-              "cover": "https://i.ibb.co/qBVxBg1/mathematics.jpg",
+              "code": "26711",
+              "price": 180,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/05/26711.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 3,
-              "name": "Physics-1",
+              "name": "সোস্যাল সাইন্স ",
               "publication":"Haque-publications",
-              "code": "65712",
+              "code": "25811",
               "price": 140,
-              "cover": "https://i.ibb.co/WFtMhgK/physics.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/04/25811-441x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 4,
-              "name": "Chemistry",
+              "name": "সিভিল ইঞ্জিনিয়ারিং ম্যাটেরিয়ালস",
               "publication":"Haque-publications",
-              "code": "65713",
-              "price": 130,
-              "cover": "https://i.ibb.co/2M4LpQF/chemistry.jpg",
+              "code": "26411",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/26411-2-435x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 5,
-              "name": "English",
+              "name": "ম্যাথমেটিক্স-১ (সমাধান)",
               "publication":"Haque-publications",
-              "code": "65812",
+              "code": "25911S",
               "price": 120,
-              "cover": "https://i.ibb.co/Jt3HsKb/english.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25911-Solution-2-445x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 6,
-              "name": "Bangla",
+              "name": "ইঞ্জিনিয়ারিং ড্রইং",
               "publication":"Haque-publications",
-              "code": "65811",
-              "price": 120,
-              "cover": "https://i.ibb.co/RzhLWjG/bangla.jpg",
+              "code": "21011",
+              "price": 100,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/21011-3-441x600.jpg",
               "button": "Add to Cart"
             },
             {
               "id": 7,
-              "name": "Basic Electrical Engineering",
+              "name": "ইংরেজী-১",
               "publication":"Haque-publications",
-              "code": "66711",
+              "code": "25712",
               "price": 160,
-              "cover": "https://i.ibb.co/VQnyc1x/electricity.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25712-2-446x600.jpg",
+              "button": "Add to Cart"
+            },
+             {
+              "id": 8,
+              "name": "বাংলা-১",
+              "publication":"Haque-publications",
+              "code": "25711",
+              "price": 140,
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25711-3.jpg",
+              "button": "Add to Cart"
+            },
+             {
+              "id": 9,
+              "name": "ম্যাথমেটিক্স-১",
+              "publication":"Haque-publications",
+              "code": "25911",
+              "price": 160,
+              "cover": "https://haquepublications.com/wp-content/uploads/2023/10/25911-1-447x600.jpg",
               "button": "Add to Cart"
             }
           ]
@@ -667,11 +694,11 @@
           "subjects": [
             {
               "id": 1,
-              "name": "Programming in C",
+              "name": "বাংলা-১",
               "publication":"Haque-publications",
               "code": "66621",
               "price": 190,
-              "cover": "https://i.ibb.co/fFHb4MC/c-programming.jpg",
+              "cover": "https://haquepublications.com/wp-content/uploads/2024/01/25711-3-442x600.jpg",
               "button": "Add to Cart"
             },
             {
