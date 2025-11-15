@@ -3,31 +3,43 @@ import Nav from "../Componants/Nav";
 import Hero from "../Componants/Hero";
 import Book from "../Componants/Book";
 import Footer from "../Footer.jsx/Footer";
+import { useOutletContext } from "react-router";
+import Carocel from "../Componants/Carocel";
+import CarocelProject from "../Componants/CarocelProject";
+import Project from "../Componants/pages/Project";
+
 
 export default function Home() {
 
-  const[searchText, setSearchText]=useState("")
-   const [cartItems, setCartItems] = useState([]); 
+ 
+  //  const [cartItems, setCartItems] = useState([]); 
+  //  const { searchText } = useOutletContext();
 
-   const handeladdcart =(book)=> {
-    const isAlreadyInCart = cartItems.find((item) => item.code === book.code);
-    if (!isAlreadyInCart) {
-      setCartItems([...cartItems, book]);
-    } else {
-      alert("Already added to cart!");
-    }
-  };
+  //  const handeladdcart =(book)=> {
+  //   const isAlreadyInCart = cartItems.find((item) => item.code === book.code);
+  //   if (!isAlreadyInCart) {
+  //     setCartItems([...cartItems, book]);
+  //   } else {
+  //     alert("Already added to cart!");
+  //   }
+  // };
 
   return (
     <div className="bg-">
       <div>
        
       </div>
-      <Nav searchText={searchText} setSearchText={setSearchText}/>
+      
       <Hero />
       <div>
-        <Book searchText={searchText} onAddToCart={handeladdcart}/>
+        {/* <Book searchText={searchText} onAddToCart={handeladdcart}/> */}
       </div>
+      <Carocel/>
+      <CarocelProject/>
+      
+      
+      
+      
       <Footer />
     </div>
   );

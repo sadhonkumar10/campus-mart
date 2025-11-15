@@ -41,7 +41,7 @@ export default function Book({ searchText ,onAddToCart }) {
             : dept.semesters;
 
         return (
-          <div key={deptIndex} className="my-8">
+          <div key={deptIndex} className="my-8 container mx-auto lg:px-20 px-2">
             <h2 className="text-2xl font-bold mb-4 text-amber-600">
               {dept.department}
             </h2>

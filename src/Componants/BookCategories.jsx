@@ -4,15 +4,15 @@ export default function BookCategories({
   setSelectCategories,
 }) {
   return (
-    <div className="flex flex-wrap justify-center gap-3 my-6">
+    <div className="flex flex-wrap justify-center shadow-sm gap-3 my-6 border bg-gray-100 border-gray-300 w-fit mx-auto p-2 rounded-2xl">
       {categories.map((category, i) => (
         <button
           key={i}
           onClick={() => setSelectCategories(category)}
-          className={`px-4 py-2 rounded-lg border font-medium transition-all ${
+          className={`p-1 px-3 rounded-xl font-medium transition-all ${
             selectCategories === category
-              ? "bg-amber-500 text-white"
-              : "bg-gray-200 hover:bg-gray-300"
+              ? "bg-gray-300 text-blue-500"
+              : "bg-gray-100 hover:bg-gray-200"
           }`}
         >
           {category}

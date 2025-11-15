@@ -11,7 +11,7 @@ export default function Footer() {
   <div className="container mx-auto px-4 grid gap-8 md:grid-cols-4 text-center">
    
     <div className="flex justify-center">
-      <img src="/public/campus-logo.png" alt="" className="h-40" />
+      <img src="/campus-logo.png" alt="" className="h-40" />
     </div>
 
    
