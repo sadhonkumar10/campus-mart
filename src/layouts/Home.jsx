@@ -4,6 +4,8 @@ import Carocel from "../Componants/Carocel";
 import CarocelProject from "../Componants/CarocelProject";
 
 export default function Home() {
+
+  
   return (
     <div className="bg-">
       <div></div>

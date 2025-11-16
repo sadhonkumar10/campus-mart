@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { IoBagAdd } from "react-icons/io5";
 import { MdAddShoppingCart } from "react-icons/md";
-import { useLoaderData } from "react-router";
+import { useLoaderData, useOutletContext } from "react-router";
 
-export default function DepartmentBooks() {
+export default function DepartmentBooks( ) {
   const books = useLoaderData(); // Loader থেকে empty array default
+  const { cart, setCart } = useOutletContext();
+
+
 
   const [searchText, setSearchText] = useState("");
   const [selectedDepartment, setSelectedDepartment] = useState("All");
@@ -45,8 +48,21 @@ export default function DepartmentBooks() {
             b.name.toLowerCase().includes(searchText.toLowerCase()) ||
             (b.code && b.code.toLowerCase().includes(searchText.toLowerCase()))
         )
-        .slice(0, 5) // Maximum 5 suggestions
+        .slice(0, 5) 
     : [];
+  {/*add to cart */}
+    const handleAddToCart = (book) => {
+    const exists = cart.find((b) => b.id === book.id);
+    if (exists) {
+      setCart(
+        cart.map((b) =>
+          b.id === book.id ? { ...b, qty: b.qty + 1 } : b
+        )
+      );
+    } else {
+      setCart([...cart, { ...book, qty: 1, selected: false, price: Number(book.price) }]);
+    }
+  };
 
   return (
     <div className="p-4 relative">
@@ -63,6 +79,9 @@ export default function DepartmentBooks() {
         onFocus={() => setShowSuggestions(true)}
         className="border px-3 py-2 mb-4 rounded w-full md:w-64 "
       />
+
+    
+      
 
       {/* Suggestions dropdown */}
       {showSuggestions && suggestions.length > 0 && (
@@ -143,6 +162,7 @@ export default function DepartmentBooks() {
                 </p>
                 <div className="pt-3 flex justify-between items-center">
                   <button
+                   onClick={() => handleAddToCart(book)}
                     className="btn  h-[35px] bg-linear-to-r from-[#2193b0] to-[#6dd5ed] text-white border-none 
                      text-[15px] font-bold cursor-pointer relative z-1 overflow-hidden
                      hover:text-black
@@ -151,6 +171,7 @@ export default function DepartmentBooks() {
                      before:transform-[skewX(-45deg)_scaleX(0)_scaleY(1)]
                      before:transition-all before:duration-500
                      hover:before:transform-[skewX(-45deg)_scaleX(1)_scaleY(1)] rounded-2xl"
+                    
                   >
                     <p className="text-xl font-bold">
                       <MdAddShoppingCart />
@@ -158,9 +179,10 @@ export default function DepartmentBooks() {
                     {book.button}
                   </button>
                   <button
+                    onClick={() => handleAddToCart(book)}
                     className=" flex items-center gap-1  bg-amber-500 text-white
                             hover:bg-gray-300 h-[35px] px-2 rounded-2xl font-blod duration-300 hover:text-black"
-                    onClick={() => onAddToCart(book)}
+                   
                   >
                     <p className="font-bold text-xl ">
                       {" "}

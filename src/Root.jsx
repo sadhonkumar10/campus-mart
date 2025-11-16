@@ -5,11 +5,13 @@ import Footer from './Footer.jsx/Footer'
 
 export default function Root() {
   const[searchText, setSearchText]=useState("")
+  const [cart, setCart] = useState([]);
+  
   return (
     <div>
-      <Nav searchText={searchText} setSearchText={setSearchText}/>  
+      <Nav cartCount={cart.length}/>  
       
-      <Outlet context={{ searchText }} />
+      <Outlet context={{ searchText ,setSearchText, cart, setCart  }} />
       <Footer/>
       
       

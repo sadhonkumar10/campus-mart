@@ -6,6 +6,7 @@ import About from "./Componants/pages/About";
 import DepartmentBooks from "./Componants/pages/DepartmentBooks";
 import Project from "./Componants/pages/Project";
 import Contact from "./Componants/pages/Contact";
+import Cart from "./Componants/Cart";
 
 
 const router= createBrowserRouter([
@@ -35,6 +36,10 @@ const router= createBrowserRouter([
             {
                 path:'/contact',
                 element: <Contact/>
+            },
+             {
+                path:'/cart',
+                element: <Cart/>
             }
         ]
     }

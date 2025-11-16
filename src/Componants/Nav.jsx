@@ -4,7 +4,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { HiOutlineMenu, HiX } from "react-icons/hi";
 import { Link } from "react-router";
 
-export default function Nav({ searchText, setSearchText, cartCount }) {
+export default function Nav({ searchText, cartCount }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -50,17 +50,16 @@ export default function Nav({ searchText, setSearchText, cartCount }) {
             /> */}
           </div>
 
-          <button className="btn btn-ghost btn-circle">
-            <FaRegHeart className="text-2xl text-gray-600 hover:text-pink-500" />
-          </button>
+          <Link to="/cart" className="relative">
+             <CgShoppingCart className="text-2xl text-gray-600 hover:text-blue-500" />
+            <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-1 rounded-full">
+              {cartCount}
+              
+            </span>
+          </Link>
 
           <button className="btn btn-ghost btn-circle relative">
-            <CgShoppingCart className="text-2xl text-gray-600 hover:text-blue-500" />
-            {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full px-[5px]">
-                {cartCount}
-              </span>
-            )}
+           
           </button>
 
           <div className="dropdown dropdown-end ">
@@ -121,28 +120,28 @@ export default function Nav({ searchText, setSearchText, cartCount }) {
       {menuOpen && (
         <div className="md:hidden bg-blue-50 border-t border-gray-200 shadow-inner animate-fadeIn">
           <ul className="flex flex-col gap-4 px-6 py-4 text-gray-700 font-semibold">
-             <Link to="/">
-            {" "}
-            <li className="hover:text-blue-500 cursor-pointer">Home</li>
-          </Link>
-          <Link to="/about">
-            {" "}
-            <li className="hover:text-blue-500 cursor-pointer">About</li>
-          </Link>
-          <Link to="/departmentBooks">
-            {" "}
-            <li className="hover:text-blue-500 cursor-pointer">
-              Department-Books
-            </li>
-          </Link>
-          <Link to="/project">
-            <li className="hover:text-blue-500 cursor-pointer">
-              Project-Matarials
-            </li>
-          </Link>
-          <Link to="/contact">
-            <li className="hover:text-blue-500 cursor-pointer">Contact</li>
-          </Link>
+            <Link to="/">
+              {" "}
+              <li className="hover:text-blue-500 cursor-pointer">Home</li>
+            </Link>
+            <Link to="/about">
+              {" "}
+              <li className="hover:text-blue-500 cursor-pointer">About</li>
+            </Link>
+            <Link to="/departmentBooks">
+              {" "}
+              <li className="hover:text-blue-500 cursor-pointer">
+                Department-Books
+              </li>
+            </Link>
+            <Link to="/project">
+              <li className="hover:text-blue-500 cursor-pointer">
+                Project-Matarials
+              </li>
+            </Link>
+            <Link to="/contact">
+              <li className="hover:text-blue-500 cursor-pointer">Contact</li>
+            </Link>
           </ul>
         </div>
       )}
