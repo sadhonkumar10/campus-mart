@@ -84,7 +84,7 @@ export default function FadeSlider() {
       >
         {slides.map((group, index) => (
           <div key={index} className="flex justify-center gap-6 flex-wrap">
-            {group.map((book) => (
+            {group.slice(0, 8).map((book) => (
               <div
                 key={book.id}
                 className="bg-white rounded-lg shadow-lg overflow-hidden 

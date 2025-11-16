@@ -14,7 +14,7 @@ export default function Project() {
       : projects.filter((item) => item.category === selectedCategory);
 
   return (
-    <div className=" mx-auto py-45 container px-20">
+    <div className=" mx-auto py-5 container px-5 lg:px-20">
       <h2 className="font-bold pt-3 text-3xl bg-clip-text text-transparent bg-linear-to-r from-blue-500  to-black  ">
         Project-Matarials
       </h2>

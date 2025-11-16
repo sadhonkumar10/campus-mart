@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ButtonAll from './ButtonAll';
+import { Link } from 'react-router';
 
 export default function CarocelProject() {
   const [project, setProject] = useState([]);
@@ -13,9 +14,9 @@ export default function CarocelProject() {
 
   return (
     <>
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 container mx-auto px-20'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 container mx-auto px-5 lg:px-20'>
       {project.slice(0, 8).map((item, index) => (
-        <div key={index} className="border-2 border-gray-300 rounded-2xl hover:scale-105 hover:duration-500">
+        <div key={index} className="border-2 border-gray-300  rounded-2xl hover:scale-105 hover:duration-500">
           <div className="relative">
             <img
               src={item.img}
@@ -45,9 +46,12 @@ export default function CarocelProject() {
         </div>
       ))}
     </div>
-    <div className='text-center pt-8 pb-8'>
-       <button className='py-3 px-6 bg-gray-400 font-bold rounded-xl text-white cursor-pointer hover:bg-transparent hover:text-black hover:transform duration-350  '>See More</button>
-    </div>
+    <Link to='/project'  >
+
+       <div className='text-center py-5'>
+        <button className='py-3 px-6 bg-gray-400 font-bold rounded-xl text-white cursor-pointer hover:bg-transparent hover:text-black hover:transform duration-350  '>See More</button>
+       </div>
+    </Link>
     </>
   )
 }
