@@ -7,6 +7,7 @@ import DepartmentBooks from "./Componants/pages/DepartmentBooks";
 import Project from "./Componants/pages/Project";
 import Contact from "./Componants/pages/Contact";
 import Cart from "./Componants/Cart";
+import Chackout from "./Componants/Chackout";
 
 
 const router= createBrowserRouter([
@@ -40,6 +41,10 @@ const router= createBrowserRouter([
              {
                 path:'/cart',
                 element: <Cart/>
+            },
+            {
+                path:'/chackout',
+                element: <Chackout/>
             }
         ]
     }

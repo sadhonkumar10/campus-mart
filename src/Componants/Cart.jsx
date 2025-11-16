@@ -1,25 +1,33 @@
 import React from "react";
-import { useOutletContext } from "react-router";
+import { Link, useOutletContext } from "react-router";
 
 export default function Cart() {
   const { cart, setCart } = useOutletContext();
 
   // ---------- Select / Remove ----------
   const toggleSelect = (id) =>
-    setCart(cart.map((i) => (i.id === id ? { ...i, selected: !i.selected } : i)));
+    setCart(
+      cart.map((i) => (i.id === id ? { ...i, selected: !i.selected } : i))
+    );
   const selectAll = () => setCart(cart.map((i) => ({ ...i, selected: true })));
-  const unselectAll = () => setCart(cart.map((i) => ({ ...i, selected: false })));
+  const unselectAll = () =>
+    setCart(cart.map((i) => ({ ...i, selected: false })));
   const removeSelected = () => setCart(cart.filter((i) => !i.selected));
 
   // ---------- Quantity ----------
   const increaseQty = (id) =>
     setCart(cart.map((i) => (i.id === id ? { ...i, qty: i.qty + 1 } : i)));
   const decreaseQty = (id) =>
-    setCart(cart.map((i) => (i.id === id && i.qty > 1 ? { ...i, qty: i.qty - 1 } : i)));
+    setCart(
+      cart.map((i) => (i.id === id && i.qty > 1 ? { ...i, qty: i.qty - 1 } : i))
+    );
 
   // ---------- Billing ----------
   const selectedItems = cart.filter((i) => i.selected);
-  const subtotal = selectedItems.reduce((sum, i) => sum + Number(i.price) * i.qty, 0);
+  const subtotal = selectedItems.reduce(
+    (sum, i) => sum + Number(i.price) * i.qty,
+    0
+  );
   const oldTotal = selectedItems.reduce(
     (sum, i) => sum + (Number(i.oldPrice) || Number(i.price)) * i.qty,
     0
@@ -31,18 +39,37 @@ export default function Cart() {
       <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
 
       {cart.length === 0 ? (
-        <p className="text-center text-gray-500">Your cart is empty</p>
+        <div className=" ">
+          <p className="text-center text-gray-500 font-bold">Your cart is empty</p>
+          <div className="text-center py-20">
+            {" "}
+            <Link to="/" className="">
+              <button className="bg-gray-300 text-white/80 font-bold text-xl px-5 py-5 rounded-2xl border-1 border-gray-500 cursor-pointer">
+                Browser Campus-Mart
+              </button>
+            </Link>
+          </div>
+        </div>
       ) : (
         <>
           {/* Select / Remove Buttons */}
           <div className="flex flex-wrap gap-3 mb-5">
-            <button onClick={selectAll} className="bg-green-500 text-white px-3 py-1 rounded">
+            <button
+              onClick={selectAll}
+              className="bg-green-500 text-white px-3 py-1 rounded"
+            >
               Select All
             </button>
-            <button onClick={unselectAll} className="bg-yellow-500 text-white px-3 py-1 rounded">
+            <button
+              onClick={unselectAll}
+              className="bg-yellow-500 text-white px-3 py-1 rounded"
+            >
               Unselect All
             </button>
-            <button onClick={removeSelected} className="bg-red-500 text-white px-3 py-1 rounded">
+            <button
+              onClick={removeSelected}
+              className="bg-red-500 text-white px-3 py-1 rounded"
+            >
               Remove Selected
             </button>
           </div>
@@ -100,7 +127,9 @@ export default function Cart() {
                     +
                   </button>
                   <button
-                    onClick={() => setCart(cart.filter((b) => b.id !== item.id))}
+                    onClick={() =>
+                      setCart(cart.filter((b) => b.id !== item.id))
+                    }
                     className="bg-red-500 text-white px-3 py-1 rounded"
                   >
                     Remove
@@ -116,14 +145,19 @@ export default function Cart() {
             <p className="text-lg">
               Old Total: <span className="line-through">{oldTotal}৳</span>
             </p>
-            <p className="text-lg text-green-600">Discount: -{discountTotal}৳</p>
+            <p className="text-lg text-green-600">
+              Discount: -{discountTotal}৳
+            </p>
             <p className="text-2xl font-bold mt-2">Final Total: {subtotal}৳</p>
-            <button
-              className="mt-4 bg-blue-600 text-white w-full py-2 rounded-lg text-lg"
-              disabled={selectedItems.length === 0}
-            >
-              Checkout Now
-            </button>
+            <Link to="/chackout">
+              {" "}
+              <button
+                className="mt-4 bg-blue-600 text-white w-full py-2 rounded-lg text-lg cursor-pointer"
+                disabled={selectedItems.length === 0}
+              >
+                Checkout Now
+              </button>
+            </Link>
           </div>
         </>
       )}

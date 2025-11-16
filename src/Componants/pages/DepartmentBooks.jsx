@@ -140,7 +140,7 @@ export default function DepartmentBooks( ) {
 
       {/* Books */}
       {filteredBooks.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 container mx-auto lg:px-20 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto lg:px-15  ">
           {filteredBooks.map((book) => (
             <div
               key={book.id}
@@ -163,7 +163,7 @@ export default function DepartmentBooks( ) {
                 <div className="pt-3 flex justify-between items-center">
                   <button
                    onClick={() => handleAddToCart(book)}
-                    className="btn  h-[35px] bg-linear-to-r from-[#2193b0] to-[#6dd5ed] text-white border-none 
+                    className="btn   bg-linear-to-r from-[#2193b0] to-[#6dd5ed] text-white border-none 
                      text-[15px] font-bold cursor-pointer relative z-1 overflow-hidden
                      hover:text-black
                      before:content-[''] before:absolute before:top-0 before:bottom-0
@@ -184,11 +184,11 @@ export default function DepartmentBooks( ) {
                             hover:bg-gray-300 h-[35px] px-2 rounded-2xl font-blod duration-300 hover:text-black"
                    
                   >
-                    <p className="font-bold text-xl ">
+                    <p className="font-bold text-xl  ">
                       {" "}
-                      <IoBagAdd></IoBagAdd>{" "}
+                      <IoBagAdd className="text-[15px]"></IoBagAdd>{" "}
                     </p>{" "}
-                    Buy Now{" "}
+                    BuyNow{" "}
                   </button>
                 </div>
               </div>
