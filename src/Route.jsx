@@ -8,6 +8,7 @@ import Project from "./Componants/pages/Project";
 import Contact from "./Componants/pages/Contact";
 import Cart from "./Componants/Cart";
 import Chackout from "./Componants/Chackout";
+import Login from "./Componants/pages/Login";
 
 
 const router= createBrowserRouter([
@@ -45,6 +46,10 @@ const router= createBrowserRouter([
             {
                 path:'/chackout',
                 element: <Chackout/>
+            },
+            {
+                path:'/login',
+                element:<Login/>
             }
         ]
     }

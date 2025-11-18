@@ -3,11 +3,9 @@ import { IoBagAdd } from "react-icons/io5";
 import { MdAddShoppingCart } from "react-icons/md";
 import { useLoaderData, useOutletContext } from "react-router";
 
-export default function DepartmentBooks( ) {
-  const books = useLoaderData(); // Loader থেকে empty array default
+export default function DepartmentBooks() {
+  const books = useLoaderData();
   const { cart, setCart } = useOutletContext();
-
-
 
   const [searchText, setSearchText] = useState("");
   const [selectedDepartment, setSelectedDepartment] = useState("All");
@@ -26,7 +24,7 @@ export default function DepartmentBooks( ) {
     return ["All", ...new Set(filtered.map((b) => b.semester))];
   })();
 
-  // Final filtered books
+  // Filtered books
   const filteredBooks = books.filter((book) => {
     const deptMatch =
       selectedDepartment === "All" || book.department === selectedDepartment;
@@ -36,11 +34,10 @@ export default function DepartmentBooks( ) {
       searchText === "" ||
       book.name.toLowerCase().includes(searchText.toLowerCase()) ||
       (book.code && book.code.toLowerCase().includes(searchText.toLowerCase()));
-
     return deptMatch && semMatch && searchMatch;
   });
 
-  // Suggestions for current input
+  // Suggestions
   const suggestions = searchText
     ? books
         .filter(
@@ -48,24 +45,26 @@ export default function DepartmentBooks( ) {
             b.name.toLowerCase().includes(searchText.toLowerCase()) ||
             (b.code && b.code.toLowerCase().includes(searchText.toLowerCase()))
         )
-        .slice(0, 5) 
+        .slice(0, 5)
     : [];
-  {/*add to cart */}
-    const handleAddToCart = (book) => {
+
+  // Add to cart
+  const handleAddToCart = (book) => {
     const exists = cart.find((b) => b.id === book.id);
     if (exists) {
       setCart(
-        cart.map((b) =>
-          b.id === book.id ? { ...b, qty: b.qty + 1 } : b
-        )
+        cart.map((b) => (b.id === book.id ? { ...b, qty: b.qty + 1 } : b))
       );
     } else {
-      setCart([...cart, { ...book, qty: 1, selected: false, price: Number(book.price) }]);
+      setCart([
+        ...cart,
+        { ...book, qty: 1, selected: false, price: Number(book.price) },
+      ]);
     }
   };
 
   return (
-    <div className="p-4 relative">
+    <div className="p-4 relative max-w-7xl mx-auto">
       {/* Search bar */}
       <input
         type="text"
@@ -75,15 +74,12 @@ export default function DepartmentBooks( ) {
           setSearchText(e.target.value);
           setShowSuggestions(true);
         }}
-        onBlur={() => setTimeout(() => setShowSuggestions(false), 100)} // small delay so click works
+        onBlur={() => setTimeout(() => setShowSuggestions(false), 100)}
         onFocus={() => setShowSuggestions(true)}
-        className="border px-3 py-2 mb-4 rounded w-full md:w-64 "
+        className="border px-3 py-2 mb-4 rounded w-full md:w-64 shadow focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
 
-    
-      
-
-      {/* Suggestions dropdown */}
+      {/* Suggestions */}
       {showSuggestions && suggestions.length > 0 && (
         <ul className="border bg-white shadow absolute w-full md:w-64 max-h-48 overflow-auto z-10 rounded">
           {suggestions.map((sugg) => (
@@ -101,8 +97,8 @@ export default function DepartmentBooks( ) {
         </ul>
       )}
 
-      {/* Department buttons */}
-      <div className="flex flex-wrap justify-center shadow-sm gap-3 my-6 border bg-gray-100 border-gray-300 w-fit mx-auto p-2 rounded-2xl">
+      
+      <div className="flex flex-wrap justify-center gap-3 my-6 p-2 rounded-2xl bg-linear-to-r from-blue-100 to-blue-50 shadow-inner">
         {departments.map((dept) => (
           <button
             key={dept}
@@ -110,10 +106,10 @@ export default function DepartmentBooks( ) {
               setSelectedDepartment(dept);
               setSelectedSemester("All");
             }}
-            className={`p-1 px-3 rounded-xl font-medium transition-all ${
+            className={`p-2 px-4 rounded-full font-medium transition-all duration-300 ${
               selectedDepartment === dept
-                ? "bg-gray-300 text-blue-500"
-                : "bg-gray-100 hover:bg-gray-200"
+                ? "bg-blue-500 text-white shadow-lg"
+                : "bg-gray-100 hover:bg-blue-300"
             }`}
           >
             {dept}
@@ -122,15 +118,15 @@ export default function DepartmentBooks( ) {
       </div>
 
       {/* Semester buttons */}
-      <div className="flex flex-wrap justify-center shadow-sm gap-3 my-6 border bg-gray-100 border-gray-300 w-fit mx-auto p-2 rounded-2xl">
+      <div className="flex flex-wrap justify-center gap-3 my-6 p-2 rounded-2xl bg-linear-to-r from-green-50 to-green-100 shadow-inner">
         {semesters.map((sem) => (
           <button
             key={sem}
             onClick={() => setSelectedSemester(sem)}
-            className={`p-1 px-3 rounded-xl font-medium transition-all ${
+            className={`p-2 px-4 rounded-full font-medium transition-all duration-300 ${
               selectedSemester === sem
-                ? "text-blue-600 font-bold border-b-2 border-blue-600"
-                : "text-gray-600"
+                ? "bg-green-500 text-white shadow-lg"
+                : "bg-gray-100 hover:bg-green-300"
             }`}
           >
             {sem}
@@ -138,57 +134,40 @@ export default function DepartmentBooks( ) {
         ))}
       </div>
 
-      {/* Books */}
+      {/* Books Grid */}
       {filteredBooks.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto lg:px-15  ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredBooks.map((book) => (
             <div
               key={book.id}
-              className=" p-2 mb-6 rounded shadow  hover:scale-105 hover:duration-500"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105"
             >
               <img
                 src={book.cover}
                 alt={book.name}
-                className="w-full h-90 rounded-t-xl"
+                className="w-full h-60 object-cover"
               />
-              <div className="p-4 border rounded-b-xl border-gray-300">
+              <div className="p-4">
                 <h3 className="font-semibold text-lg">{book.name}</h3>
                 <p className="text-gray-600 text-sm">Code: {book.code}</p>
-                <p className="text-gray-700 font-medium mt-1">
-                  Price : {book.price}
+                <p className="text-gray-800 font-bold mt-1">
+                  Price: ${book.price}
                 </p>
-                <p className="font-semibold text-blue-800">
+                <p className="text-blue-700 font-semibold">
                   {book.publication}
                 </p>
                 <div className="pt-3 flex justify-between items-center">
                   <button
-                   onClick={() => handleAddToCart(book)}
-                    className="btn   bg-linear-to-r from-[#2193b0] to-[#6dd5ed] text-white border-none 
-                     text-[15px] font-bold cursor-pointer relative z-1 overflow-hidden
-                     hover:text-black
-                     before:content-[''] before:absolute before:top-0 before:bottom-0
-                     before:left-[-20%] before:right-[-20%]  before:bg-linear-to-r before:from-white before:to-sky-100 before:-z-10
-                     before:transform-[skewX(-45deg)_scaleX(0)_scaleY(1)]
-                     before:transition-all before:duration-500
-                     hover:before:transform-[skewX(-45deg)_scaleX(1)_scaleY(1)] rounded-2xl"
-                    
+                    onClick={() => handleAddToCart(book)}
+                    className="bg-linear-to-r from-blue-400 to-blue-600 text-white px-4 py-1 rounded-2xl font-bold shadow hover:from-blue-500 hover:to-blue-700 transition-all duration-300 flex items-center gap-2"
                   >
-                    <p className="text-xl font-bold">
-                      <MdAddShoppingCart />
-                    </p>{" "}
-                    {book.button}
+                    <MdAddShoppingCart /> Add
                   </button>
                   <button
                     onClick={() => handleAddToCart(book)}
-                    className=" flex items-center gap-1  bg-amber-500 text-white
-                            hover:bg-gray-300 h-[35px] px-2 rounded-2xl font-blod duration-300 hover:text-black"
-                   
+                    className="flex items-center gap-1 bg-amber-500 text-white hover:bg-amber-600 px-3 py-1 rounded-2xl font-bold transition-all duration-300"
                   >
-                    <p className="font-bold text-xl  ">
-                      {" "}
-                      <IoBagAdd className="text-[15px]"></IoBagAdd>{" "}
-                    </p>{" "}
-                    BuyNow{" "}
+                    <IoBagAdd /> Buy Now
                   </button>
                 </div>
               </div>
@@ -196,7 +175,7 @@ export default function DepartmentBooks( ) {
           ))}
         </div>
       ) : (
-        <p className="text-center text-gray-500">No books found.</p>
+        <p className="text-center text-gray-500 mt-10">No books found.</p>
       )}
     </div>
   );

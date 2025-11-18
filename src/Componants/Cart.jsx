@@ -40,11 +40,13 @@ export default function Cart() {
 
       {cart.length === 0 ? (
         <div className=" ">
-          <p className="text-center text-gray-500 font-bold">Your cart is empty</p>
+          <p className="text-center text-gray-500 font-bold">
+            Your cart is empty
+          </p>
           <div className="text-center py-20">
             {" "}
             <Link to="/" className="">
-              <button className="bg-gray-300 text-white/80 font-bold text-xl px-5 py-5 rounded-2xl border-1 border-gray-500 cursor-pointer">
+              <button className="bg-gray-300 text-white/80 font-bold text-xl px-5 py-5 rounded-2xl border border-gray-500 cursor-pointer">
                 Browser Campus-Mart
               </button>
             </Link>
@@ -99,7 +101,7 @@ export default function Cart() {
                       <h3 className="font-semibold pt-1">{item.name}</h3>
                       <p className="text-blue-400">{item.publication || ""}</p>
                       <p>
-                        Price: {item.price}৳ × {item.qty}
+                        Price: {item.price}BDT × {item.qty}
                       </p>
                       {item.oldPrice && (
                         <p className="line-through text-gray-500">
