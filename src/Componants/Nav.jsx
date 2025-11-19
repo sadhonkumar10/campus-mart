@@ -3,6 +3,8 @@ import { CgShoppingCart } from "react-icons/cg";
 import { HiOutlineMenu, HiX } from "react-icons/hi";
 import { Link, NavLink } from "react-router";
 import { UserContext } from "../UserContext";
+import { Links } from "react-router";
+import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 
 export default function Nav({  cartCount }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,6 +40,8 @@ export default function Nav({  cartCount }) {
               {cartCount}
             </span>
           </Link>
+
+         
 
           {/* Login Button (User না থাকলে দেখাবে) */}
           {!user && (

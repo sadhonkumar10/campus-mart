@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="relative overflow-hidden bg-linear-to-br from-blue-800 via-blue-600 to-blue-400">
       <div className="absolute top-10 right-10 animate-pulse text-white/30 text-3xl font-bold">
-        <img src="/public/campus-logo.png" alt="" className="h-40" />
+        <img src="/campus-logo.png" alt="" className="h-40" />
       </div>
       <div className="absolute bottom-32 left-16 animate-pulse text-white/30 text-2xl font-bold flex items-center">
         <BiBook className="font-bold text-5xl text-blue-950" /> <h1>BOOKS</h1>

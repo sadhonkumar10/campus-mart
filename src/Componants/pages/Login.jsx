@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { UserContext } from "../../UserContext";
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import toast from "react-hot-toast";
 
 export default function Login() {
@@ -92,9 +92,12 @@ export default function Login() {
 
         <p className="text-center text-white/90 mt-4 text-sm">
           Don't have an account?
+         <Link to='/contact'>
           <span className="cursor-pointer text-yellow-300 hover:underline ml-1">
             Contact Admin
           </span>
+         
+         </Link>
         </p>
       </div>
     </div>

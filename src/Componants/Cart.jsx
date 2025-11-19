@@ -4,7 +4,7 @@ import { Link, useOutletContext } from "react-router";
 export default function Cart() {
   const { cart, setCart } = useOutletContext();
 
-  // ---------- Select / Remove ----------
+  
   const toggleSelect = (id) =>
     setCart(
       cart.map((i) => (i.id === id ? { ...i, selected: !i.selected } : i))
@@ -14,7 +14,7 @@ export default function Cart() {
     setCart(cart.map((i) => ({ ...i, selected: false })));
   const removeSelected = () => setCart(cart.filter((i) => !i.selected));
 
-  // ---------- Quantity ----------
+  
   const increaseQty = (id) =>
     setCart(cart.map((i) => (i.id === id ? { ...i, qty: i.qty + 1 } : i)));
   const decreaseQty = (id) =>
@@ -22,7 +22,7 @@ export default function Cart() {
       cart.map((i) => (i.id === id && i.qty > 1 ? { ...i, qty: i.qty - 1 } : i))
     );
 
-  // ---------- Billing ----------
+  
   const selectedItems = cart.filter((i) => i.selected);
   const subtotal = selectedItems.reduce(
     (sum, i) => sum + Number(i.price) * i.qty,
@@ -54,7 +54,7 @@ export default function Cart() {
         </div>
       ) : (
         <>
-          {/* Select / Remove Buttons */}
+         
           <div className="flex flex-wrap gap-3 mb-5">
             <button
               onClick={selectAll}
@@ -76,7 +76,7 @@ export default function Cart() {
             </button>
           </div>
 
-          {/* Cart Items */}
+         
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
             {cart.map((item) => (
               <div
@@ -113,7 +113,7 @@ export default function Cart() {
                   </div>
                 </div>
 
-                {/* Quantity + Remove */}
+                
                 <div className="flex items-center gap-2 mt-3 md:mt-0">
                   <button
                     onClick={() => decreaseQty(item.id)}
@@ -141,7 +141,7 @@ export default function Cart() {
             ))}
           </div>
 
-          {/* Billing Summary */}
+          
           <div className="mt-6 p-4 border rounded-lg shadow">
             <h2 className="text-xl font-bold mb-2">Billing Summary</h2>
             <p className="text-lg">
