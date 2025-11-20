@@ -11,14 +11,14 @@ export default function Home() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLoading(false); // 5 সেকেন্ড পরে লোডার বন্ধ হবে
-    }, 3000);
+      setLoading(false); 
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
-    return <Loader/>; // লোডিং হলে লোডার দেখাবে
+    return <Loader/>; 
   }
 
   return (
