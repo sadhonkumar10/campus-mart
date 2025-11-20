@@ -26,14 +26,14 @@ export default function CheckoutPage() {
     return;
   }
 
-  // Show success toast
+  
   toast.success("Order placed successfully!", {
     duration: 3000,
     position: "top-right",
     icon: "✅",
     style: { borderRadius: "10px", background: "#333", color: "#fff" },
   });
-// Clear cart and redirect after 2 seconds
+
   setTimeout(() => {
     setCart([]);
     navigate("/"); 
