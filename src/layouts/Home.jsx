@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-  // তোমার Loader কম্পোনেন্ট
+  
 import Hero from "../Componants/Hero";
 import Carocel from "../Componants/Carocel";
 import CarocelProject from "../Componants/CarocelProject";

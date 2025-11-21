@@ -9,6 +9,7 @@ import Contact from "./Componants/pages/Contact";
 import Cart from "./Componants/Cart";
 import Chackout from "./Componants/Chackout";
 import Login from "./Componants/pages/Login";
+import BlogSection from "./Componants/Blog";
 
 
 const router= createBrowserRouter([
@@ -50,6 +51,10 @@ const router= createBrowserRouter([
             {
                 path:'/login',
                 element:<Login/>
+            },
+             {
+                path:'/Blog',
+                element:<BlogSection/>
             }
         ]
     }

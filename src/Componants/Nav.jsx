@@ -3,8 +3,6 @@ import { CgShoppingCart } from "react-icons/cg";
 import { HiOutlineMenu, HiX } from "react-icons/hi";
 import { Link, NavLink } from "react-router";
 import { UserContext } from "../UserContext";
-import { Links } from "react-router";
-import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 
 export default function Nav({  cartCount }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +12,7 @@ export default function Nav({  cartCount }) {
 
   return (
     <div className="sticky top-0 w-full bg-white shadow-md z-50 transition-all">
-      <div className="navbar px-6 md:px-10 flex justify-between items-center h-20">
+      <div className="navbar container mx-auto px-6 md:px-10 flex justify-between items-center h-20">
         
        
         <div className="flex items-center gap-3">
@@ -24,9 +22,11 @@ export default function Nav({  cartCount }) {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-semibold text-gray-700">
           <Link to="/"><li className="hover:text-blue-500 cursor-pointer">Home</li></Link>
-          <Link to="/about"><li className="hover:text-blue-500 cursor-pointer">About</li></Link>
-          <Link to="/departmentBooks"><li className="hover:text-blue-500 cursor-pointer">Department-Books</li></Link>
-          <Link to="/project"><li className="hover:text-blue-500 cursor-pointer">Project-Matarials</li></Link>
+         
+          <Link to="/departmentBooks"><li className="hover:text-blue-500 cursor-pointer">Department</li></Link>
+          <Link to="/project"><li className="hover:text-blue-500 cursor-pointer">Project</li></Link>
+          <Link to="/Blog"><li className="hover:text-blue-500 cursor-pointer">Areticles</li></Link>
+           <Link to="/about"><li className="hover:text-blue-500 cursor-pointer">About</li></Link>
           <Link to="/contact"><li className="hover:text-blue-500 cursor-pointer">Contact</li></Link>
         </ul>
 
@@ -102,7 +102,8 @@ export default function Nav({  cartCount }) {
             <Link to="/about"><li>About</li></Link>
             <Link to="/departmentBooks"><li>Department-Books</li></Link>
             <Link to="/project"><li>Project-Matarials</li></Link>
-            <Link to="/contact"><li>Contact</li></Link>
+            <Link to="/contact"><li>Areticles</li></Link>
+             <Link to="/contact"><li>Contact</li></Link>
           </ul>
         </div>
       )}

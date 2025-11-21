@@ -103,7 +103,7 @@ export default function Footer() {
           </ul>
 
           <h6 className="text-lg font-semibold mb-2">Follow Us</h6>
-          <div className="flex gap-4">
+          <div className="grid grid-cols-4 gap-4">
             <a
               href="#"
               className="p-2 bg-white rounded-full shadow hover:bg-green-100 transition-colors"

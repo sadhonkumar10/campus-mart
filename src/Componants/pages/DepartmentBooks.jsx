@@ -24,7 +24,7 @@ export default function DepartmentBooks() {
     return ["All", ...new Set(filtered.map((b) => b.semester))];
   })();
 
-  // Filtered books
+  
   const filteredBooks = books.filter((book) => {
     const deptMatch =
       selectedDepartment === "All" || book.department === selectedDepartment;
@@ -65,7 +65,7 @@ export default function DepartmentBooks() {
 
   return (
     <div className="p-4 relative max-w-7xl mx-auto">
-      {/* Search bar */}
+      
       <input
         type="text"
         placeholder="Search by name or code..."
@@ -117,7 +117,7 @@ export default function DepartmentBooks() {
         ))}
       </div>
 
-      {/* Semester buttons */}
+     
       <div className="flex flex-wrap justify-center gap-3 my-6 p-2 rounded-2xl bg-linear-to-r from-green-50 to-green-100 shadow-inner">
         {semesters.map((sem) => (
           <button
@@ -134,7 +134,7 @@ export default function DepartmentBooks() {
         ))}
       </div>
 
-      {/* Books Grid */}
+     
       {filteredBooks.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredBooks.map((book) => (
@@ -167,7 +167,7 @@ export default function DepartmentBooks() {
                     onClick={() => handleAddToCart(book)}
                     className="flex items-center gap-1 bg-amber-500 text-white hover:bg-amber-600 px-3 py-1 rounded-2xl font-bold transition-all duration-300"
                   >
-                    <IoBagAdd /> Buy Now
+                    <IoBagAdd /> Buy  
                   </button>
                 </div>
               </div>
