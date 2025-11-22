@@ -1,4 +1,5 @@
-[
+
+ [
   {
     "id": 1,
     "productName": "Raspberry Pi 4 Model B",
@@ -10,7 +11,8 @@
     "offPercentage": 8.35,
     "batch": "new",
     "rating": 4.9,
-    "img": "https://tse4.mm.bing.net/th/id/OIP.LzECJ1U--U_dNrX3XnwnFwHaFY?cb=ucfimg2ucfimg=1&w=2999&h=2179&rs=1&pid=ImgDetMain&o=7&rm=3"
+    "img": "https://tse4.mm.bing.net/th/id/OIP.LzECJ1U--U_dNrX3XnwnFwHaFY?cb=ucfimg2ucfimg=1&w=2999&h=2179&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "The Raspberry Pi 4 Model B is a compact, high-performance single-board computer ideal for DIY projects, learning programming, home automation, and media center setups. Equipped with multiple USB ports, HDMI outputs, and high-speed processing power, it is perfect for makers and hobbyists alike."
   },
   {
     "id": 2,
@@ -23,7 +25,8 @@
     "offPercentage": 14.29,
     "batch": "new",
     "rating": 4.8,
-    "img": "https://th.bing.com/th/id/OIP.KFh9npu7ZxQQ77aj4sGENgHaHa?w=189&h=189&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.KFh9npu7ZxQQ77aj4sGENgHaHa?w=189&h=189&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    "description": "The Arduino Starter Kit from Elegoo is perfect for beginners and electronics enthusiasts. It includes a variety of sensors, modules, and components to start learning electronics, programming, and IoT projects effectively, with easy-to-follow tutorials."
   },
   {
     "id": 3,
@@ -36,7 +39,8 @@
     "offPercentage": 12.63,
     "batch": "sale",
     "rating": 4.6,
-    "img": "https://m.media-amazon.com/images/I/71ULtE83xWL._AC_SL1500_.jpg"
+    "img": "https://m.media-amazon.com/images/I/71ULtE83xWL._AC_SL1500_.jpg",
+    "description": "A reliable 32GB USB flash drive from SanDisk for quick and secure data storage. Compact, lightweight, and compatible with multiple devices, it is ideal for storing documents, media, and software on the go."
   },
   {
     "id": 4,
@@ -49,7 +53,8 @@
     "offPercentage": 16.58,
     "batch": "featured",
     "rating": 4.7,
-    "img": "https://tse4.mm.bing.net/th/id/OIP._0b5NNySf-Ohe0IKXfWSewHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    "img": "https://tse4.mm.bing.net/th/id/OIP._0b5NNySf-Ohe0IKXfWSewHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "The Logitech Wireless Mouse provides smooth, precise tracking and comfortable grip. It is perfect for office work, gaming, or general use, offering long battery life and reliable wireless connectivity."
   },
   {
     "id": 5,
@@ -62,7 +67,8 @@
     "offPercentage": 10.0,
     "batch": "new",
     "rating": 4.5,
-    "img": "https://th.bing.com/th/id/R.e9e4c6d060d4a499c2132a074318686d?rik=kEPjvk8ypalj5A&pid=ImgRaw&r=0"
+    "img": "https://th.bing.com/th/id/R.e9e4c6d060d4a499c2132a074318686d?rik=kEPjvk8ypalj5A&pid=ImgRaw&r=0",
+    "description": "A high-quality 1.5-meter HDMI cable for connecting computers, TVs, and monitors. Supports high-definition video and audio transmission, ensuring clear display and reliable performance."
   },
   {
     "id": 6,
@@ -75,7 +81,8 @@
     "offPercentage": 10.0,
     "batch": "sale",
     "rating": 4.5,
-    "img": "https://m.media-amazon.com/images/I/81o7BW8KRBL._SL1500_.jpg"
+    "img": "https://m.media-amazon.com/images/I/81o7BW8KRBL._SL1500_.jpg",
+    "description": "This breadboard and jumper wire pack is essential for prototyping and circuit design. It allows you to easily connect electronic components without soldering and is perfect for students, hobbyists, and engineers."
   },
   {
     "id": 7,
@@ -88,7 +95,8 @@
     "offPercentage": 8.33,
     "batch": "featured",
     "rating": 4.6,
-    "img": "https://th.bing.com/th/id/OIP.9hj0Oqvi7u6ccKJ_RWk9aAHaHa?w=197&h=197&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.9hj0Oqvi7u6ccKJ_RWk9aAHaHa?w=197&h=197&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    "description": "Assorted color LED pack for electronics projects, DIY decorations, or indicators. Provides high brightness, long-lasting performance, and easy integration into circuits."
   },
   {
     "id": 8,
@@ -101,7 +109,8 @@
     "offPercentage": 12.63,
     "batch": "new",
     "rating": 4.4,
-    "img": "https://th.bing.com/th/id/OIP.XUPEIPsMuX7GTjzQVTcgAQHaHa?w=184&h=184&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.XUPEIPsMuX7GTjzQVTcgAQHaHa?w=184&h=184&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    "description": "A complete set of resistors and capacitors for electronic circuits. Suitable for learning, testing, and creating electronic projects with precision and reliability."
   },
   {
     "id": 9,
@@ -114,7 +123,8 @@
     "offPercentage": 11.33,
     "batch": "new",
     "rating": 4.5,
-    "img": "https://th.bing.com/th/id/OIP.N_KupwBmPUUCiHhyE7TNmwHaGe?w=216&h=189&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.N_KupwBmPUUCiHhyE7TNmwHaGe?w=216&h=189&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    "description": "A 6V DC motor for hobby projects, robotics, and mechanical applications. Reliable and efficient, this motor is perfect for beginners and enthusiasts."
   },
   {
     "id": 10,
@@ -127,8 +137,12 @@
     "offPercentage": 8.33,
     "batch": "sale",
     "rating": 4.7,
-    "img": "https://th.bing.com/th/id/OIP.edxlqzIiKg48fv9Zop-hhQHaHa?w=174&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.edxlqzIiKg48fv9Zop-hhQHaHa?w=174&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    "description": "The TowerPro SG90 servo motor is small, lightweight, and easy to use. Ideal for RC vehicles, robotics, and other hobby applications where precise rotation is required."
   },
+
+
+  
   {
     "id": 11,
     "productName": "Thermocol Sheets for Models",
@@ -140,7 +154,8 @@
     "offPercentage": 10.0,
     "batch": "sale",
     "rating": 4.3,
-    "img": "https://th.bing.com/th/id/OIP.n8TFETp1LnBKvpQ4Fk-oDwHaHa?w=183&h=183&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.n8TFETp1LnBKvpQ4Fk-oDwHaHa?w=183&h=183&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    "description": "High-quality thermocol sheets ideal for architectural models, craft projects, and DIY applications. Lightweight, easy to cut, and durable, making them perfect for students and hobbyists."
   },
   {
     "id": 12,
@@ -153,7 +168,8 @@
     "offPercentage": 20.0,
     "batch": "featured",
     "rating": 4.5,
-    "img": "https://tse1.mm.bing.net/th/id/OIP.fwBBlfqNc2AHqkjPG8VMCwHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    "img": "https://tse1.mm.bing.net/th/id/OIP.fwBBlfqNc2AHqkjPG8VMCwHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Durable cardboard sheets in A4 and A3 sizes, suitable for model-making, crafts, and school projects. Strong, easy to fold, and compatible with paints and adhesives."
   },
   {
     "id": 13,
@@ -166,7 +182,8 @@
     "offPercentage": 7.14,
     "batch": "new",
     "rating": 4.7,
-    "img": "https://m.media-amazon.com/images/I/81PRBcJG+JL._AC_SL1500_.jpg"
+    "img": "https://m.media-amazon.com/images/I/81PRBcJG+JL._AC_SL1500_.jpg",
+    "description": "Electric glue gun with sticks for craft projects, repairs, and model-making. Heats quickly, easy to handle, and provides strong adhesion for various materials."
   },
   {
     "id": 14,
@@ -179,7 +196,8 @@
     "offPercentage": 13.33,
     "batch": "new",
     "rating": 4.6,
-    "img": "https://th.bing.com/th/id/OIP.cszLgcZo-yj-NmTfv-ND8gHaFx?w=237&h=185&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
+    "img": "https://th.bing.com/th/id/OIP.cszLgcZo-yj-NmTfv-ND8gHaFx?w=237&h=185&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3",
+    "description": "Mini cement for structural models and DIY projects. Easy to mix, sets quickly, and ideal for crafting durable miniature structures."
   },
   {
     "id": 15,
@@ -192,6 +210,219 @@
     "offPercentage": 10.0,
     "batch": "sale",
     "rating": 4.4,
-    "img": "https://64.media.tumblr.com/41133307effc470dc263f58d605c0665/dfc6909b1ef161ec-a6/s640x960/76b28a0a0e6310298202b0213afd5bc74129d670.jpg"
+    "img": "https://64.media.tumblr.com/41133307effc470dc263f58d605c0665/dfc6909b1ef161ec-a6/s640x960/76b28a0a0e6310298202b0213afd5bc74129d670.jpg",
+    "description": "Plaster sheets for creating structural models and architectural prototypes. Easy to shape, lightweight, and perfect for students and model-makers."
+  },
+  {
+    "id": 16,
+    "productName": "Arduino UNO R3",
+    "category": "Computer",
+    "brand": "Arduino",
+    "stock": 30,
+    "oldPrice": 1200,
+    "currentPrice": 1099,
+    "offPercentage": 8.42,
+    "batch": "new",
+    "rating": 4.8,
+    "img": "https://th.bing.com/th/id/OIP.nHdXPo0QEMTCCJtxg-WMFwHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Arduino UNO R3 is a widely used microcontroller board for learning programming and electronics. It is compatible with a variety of sensors and modules for DIY projects and IoT applications."
+  },
+  {
+    "id": 17,
+    "productName": "Raspberry Pi 400 Kit",
+    "category": "Computer",
+    "brand": "Raspberry Pi",
+    "stock": 20,
+    "oldPrice": 9000,
+    "currentPrice": 8499,
+    "offPercentage": 5.56,
+    "batch": "new",
+    "rating": 4.9,
+    "img": "https://th.bing.com/th/id/OIP.ZQe9iM6A4K1i9C9Yx3Z2mgHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Raspberry Pi 400 Kit includes a compact computer integrated into a keyboard. Perfect for programming, learning, and general computing tasks with high performance and portability."
+  },
+  {
+    "id": 18,
+    "productName": "Laptop Cooling Pad",
+    "category": "Computer",
+    "brand": "Generic",
+    "stock": 40,
+    "oldPrice": 1500,
+    "currentPrice": 1299,
+    "offPercentage": 13.4,
+    "batch": "sale",
+    "rating": 4.5,
+    "img": "https://th.bing.com/th/id/OIP.ZVwMpnjuVxD6M8HqFhM3cAHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Laptop cooling pad with multiple fans to prevent overheating. Lightweight, portable, and compatible with most laptop sizes, ensuring optimal performance and longevity."
+  },
+  {
+    "id": 19,
+    "productName": "Ethernet Cable 2m",
+    "category": "Computer",
+    "brand": "Generic",
+    "stock": 60,
+    "oldPrice": 300,
+    "currentPrice": 250,
+    "offPercentage": 16.67,
+    "batch": "new",
+    "rating": 4.4,
+    "img": "https://th.bing.com/th/id/OIP.gyaTfRR4c8C0kJ4P5P6LQAHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "High-quality Ethernet cable for fast and stable wired internet connections. Perfect for computers, routers, and network devices, ensuring reliable data transmission."
+  },
+  {
+    "id": 20,
+    "productName": "Bluetooth Speaker",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 25,
+    "oldPrice": 2000,
+    "currentPrice": 1799,
+    "offPercentage": 10.05,
+    "batch": "featured",
+    "rating": 4.6,
+    "img": "https://th.bing.com/th/id/OIP.XmYnB7ePbGf9YpTl0zF9ggHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Portable Bluetooth speaker with high-quality audio, long battery life, and compact design. Ideal for home, travel, or outdoor use."
+  },
+  {
+    "id": 21,
+    "productName": "Mini Breadboard",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 80,
+    "oldPrice": 200,
+    "currentPrice": 180,
+    "offPercentage": 10.0,
+    "batch": "sale",
+    "rating": 4.3,
+    "img": "https://th.bing.com/th/id/OIP.y2JjZn6Hl6Gf4rV_9y1_CwHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Compact mini breadboard for easy prototyping and electronics projects. Works with jumper wires and components without soldering."
+  },
+  {
+    "id": 22,
+    "productName": "Jumper Wire Pack 120pcs",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 100,
+    "oldPrice": 500,
+    "currentPrice": 450,
+    "offPercentage": 10.0,
+    "batch": "new",
+    "rating": 4.5,
+    "img": "https://th.bing.com/th/id/OIP.6CLcI1xeFvLsglZC7Q3R2QHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Pack of 120 jumper wires for breadboards and prototyping. Assorted lengths and colors for easy and organized connections in electronics projects."
+  },
+  {
+    "id": 23,
+    "productName": "Stepper Motor NEMA 17",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 20,
+    "oldPrice": 1200,
+    "currentPrice": 1099,
+    "offPercentage": 8.42,
+    "batch": "new",
+    "rating": 4.7,
+    "img": "https://th.bing.com/th/id/OIP.1JpGZQp9zvppFjVZyHx2TwHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "NEMA 17 stepper motor for precise control in robotics, 3D printers, and CNC machines. Smooth performance and high reliability."
+  },
+  {
+    "id": 24,
+    "productName": "12V Relay Module",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 30,
+    "oldPrice": 350,
+    "currentPrice": 299,
+    "offPercentage": 14.57,
+    "batch": "sale",
+    "rating": 4.6,
+    "img": "https://th.bing.com/th/id/OIP.Wq1xQz5pV9iUuKXcB3qZ9AHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "12V relay module for controlling high-voltage devices with low-voltage microcontrollers like Arduino or Raspberry Pi. Perfect for automation and electronics projects."
+  },
+  {
+    "id": 25,
+    "productName": "Multimeter Digital",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 25,
+    "oldPrice": 1200,
+    "currentPrice": 1099,
+    "offPercentage": 8.42,
+    "batch": "new",
+    "rating": 4.7,
+    "img": "https://th.bing.com/th/id/OIP.XLpsu0K-HZgPX3hJhPOYvAHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Digital multimeter for measuring voltage, current, and resistance in circuits. Reliable, accurate, and suitable for students, engineers, and hobbyists."
+  },
+  {
+    "id": 26,
+    "productName": "Voltage Regulator 7805",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 60,
+    "oldPrice": 100,
+    "currentPrice": 85,
+    "offPercentage": 15.0,
+    "batch": "new",
+    "rating": 4.4,
+    "img": "https://th.bing.com/th/id/OIP.Hj7I4DQ3FCEoVgFMJU2NRQHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "7805 voltage regulator provides a stable 5V output from higher voltage sources. Ideal for powering Arduino, Raspberry Pi, and other electronics projects."
+  },
+  {
+    "id": 27,
+    "productName": "12V DC Fan",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 40,
+    "oldPrice": 500,
+    "currentPrice": 450,
+    "offPercentage": 10.0,
+    "batch": "sale",
+    "rating": 4.5,
+    "img": "https://th.bing.com/th/id/OIP.Pj3_XFf0Q4uh9G7l7bX1pAHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "12V DC fan for cooling electronics, projects, and small enclosures. Lightweight, reliable, and energy-efficient."
+  },
+  {
+    "id": 28,
+    "productName": "Heat Shrink Tubing Assortment",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 80,
+    "oldPrice": 300,
+    "currentPrice": 250,
+    "offPercentage": 16.67,
+    "batch": "new",
+    "rating": 4.6,
+    "img": "https://th.bing.com/th/id/OIP.AZh1MmvDC8kHJ44bBqEJQQHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Heat shrink tubing assortment for insulating and protecting wires in electronics projects. Comes in multiple sizes and colors for versatility."
+  },
+  {
+    "id": 29,
+    "productName": "Soldering Iron Kit",
+    "category": "Electrical",
+    "brand": "Generic",
+    "stock": 35,
+    "oldPrice": 1200,
+    "currentPrice": 1099,
+    "offPercentage": 8.42,
+    "batch": "featured",
+    "rating": 4.7,
+    "img": "https://th.bing.com/th/id/OIP.q09M3PsnAy3F0oCXkZhkWgHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Soldering iron kit with adjustable temperature, stand, and solder wire. Essential for electronics repair, DIY projects, and circuit building."
+  },
+  {
+    "id": 30,
+    "productName": "Digital Caliper 150mm",
+    "category": "Civil",
+    "brand": "Generic",
+    "stock": 25,
+    "oldPrice": 1500,
+    "currentPrice": 1299,
+    "offPercentage": 13.4,
+    "batch": "new",
+    "rating": 4.5,
+    "img": "https://th.bing.com/th/id/OIP.8lPzJg5VnNRQ2j2f9YFtNwHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7",
+    "description": "Digital caliper for precise measurements of models, components, and materials. Easy to use, accurate, and suitable for students, engineers, and hobbyists."
   }
+
+
 ]

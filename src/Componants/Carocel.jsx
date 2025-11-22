@@ -88,18 +88,18 @@ export default function FadeSlider() {
       </button>
     );
 
-  // --- Component Render ---
+  
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-16 relative">
       <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-12 text-gray-900 tracking-tight">
-        📚 Premium Books Collection
+        Department Books Collection
       </h2>
       <hr className="w-24 h-1 bg-blue-600 mx-auto mb-12 rounded-full" />
 
-      {/* FIX: Use chunkSize as the key to force re-render on breakpoint change */}
+     
       <Carousel
-        key={chunkSize} // This is the crucial fix for responsive issues
+        key={chunkSize} 
         showThumbs={false}
         infiniteLoop
         autoPlay

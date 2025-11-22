@@ -106,31 +106,31 @@ export default function Footer() {
           <div className="grid grid-cols-4 gap-4">
             <a
               href="#"
-              className="p-2 bg-white rounded-full shadow hover:bg-green-100 transition-colors"
+              className="p-2 hover:bg-green-100 transition-colors"
             >
               <FaInstagram size={20} />
             </a>
             <a
               href="#"
-              className="p-2 bg-white rounded-full shadow hover:bg-green-100 transition-colors"
+              className=" hover:bg-green-100 transition-colors"
             >
               <FaFacebook size={20} />
             </a>
             <a
               href="#"
-              className="p-2 bg-white rounded-full shadow hover:bg-green-100 transition-colors"
+              className="p-2 hover:bg-green-100 transition-colors text-c"
             >
               <FaTwitter size={20} />
             </a>
             <a
               href="#"
-              className="p-2 bg-white rounded-full shadow hover:bg-green-100 transition-colors"
+              className="p-2 hover:bg-green-100 transition-colors"
             >
               <FaLinkedin size={20} />
             </a>
             <a
               href="#"
-              className="p-2 bg-white rounded-full shadow hover:bg-green-100 transition-colors"
+              className="p-2 hover:bg-green-100 transition-colors"
             >
               <FaGithub size={20} />
             </a>

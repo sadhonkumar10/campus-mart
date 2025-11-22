@@ -19,20 +19,24 @@ export default function About() {
         <div className="pt-20">
           <h2 className="font-bold text-2xl pb-5">Welcome to Campus-Mart</h2>
           <p className="pb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate id est laborum.
-          </p>
+            {" "}
+            Campus-Mart is a reliable digital marketplace built specifically for
+            Polytechnic students. With busy schedules full of classes, labs,
+            assignments, and projects, managing daily shopping can be difficult.
+            Campus-Mart solves that problem by allowing students to order all
+            their essentials at affordable prices, with fast delivery straight
+            to their hostel, home, or campus. Convenience, time-saving, and
+            trusted service are our core priorities.{" "}
+          </p>{" "}
           <p className="pb-5">
-            Ius ferri velit sanctus cu, sed at soleat accusata. Dictas prompta
-            et Ut placerat legendos interpre.Donec vitae sapien ut libero
-            venenatis faucibus. Nullam quis ante Etiam sit amet orci eget. Quis
-            commodo odio aenean sed adipiscing. Turpis massa tincidunt dui ut
-            ornare lectus. Auctor elit sed vulputate mi sit amet. Commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate id
-            est laborum.
+            {" "}
+            We understand how demanding student life can be, which is why we
+            offer a smart, simple, and hassle-free shopping experience. Powered
+            by modern technology, Campus-Mart ensures every step—from product
+            selection to order processing and delivery—is smooth and reliable.
+            Quality products, transparent pricing, quick service, and dependable
+            support form the foundation of our work. Meeting student needs with
+            the right service at the right time is our everyday mission.{" "}
           </p>
           <div className="lg:flex gap-5 hidden lg:block">
             <img
@@ -194,7 +198,7 @@ export default function About() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 w-9/12 mx-auto pt-8 gap-4">
-        <div className="border border-gray-300 bg-black/4 rounded-2xl p-4" >
+        <div className="border border-gray-300 bg-black/4 rounded-2xl p-4">
           <h4 className="font-bold text-2xl">Who we are</h4>
           <p>
             Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim
@@ -220,51 +224,48 @@ export default function About() {
         </div>
       </div>
 
-     <div className=" w-9/12 mx-auto">
-      <h2 className="font-bold text-3xl text-center pt-15 pb-15">Our Team</h2>
-       <div className=" grid grid-cols-1 lg:grid-cols-2">
-        
-
-        <div className="pr-8 ">
-          <p className="text-blue-500 font-bold">Our Team</p>
-          <h3 className="text-3xl pb-5">Meet Our Expert Team</h3>
-          <p>
-            Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa
-            dolor imperdiet neccon sequata congue idsem. Maecenas malesuada
-            faucibus finibus.
-          </p>
-          <p className="pt-9 pb-9">
-            Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa
-            dolor imperdiet neccon sequata congue idsem. Maecenas malesuada
-            faucibus finibus.
-          </p>
-          <button className="py-2 px-3 bg-blue-500 text-white rounded-2xl hover:bg-transparent hover:text-black transform duration-500">View All Members</button>
+      <div className=" w-9/12 mx-auto">
+        <h2 className="font-bold text-3xl text-center pt-15 pb-15">Our Team</h2>
+        <div className=" grid grid-cols-1 lg:grid-cols-2">
+          <div className="pr-8 ">
+            <p className="text-blue-500 font-bold">Our Team</p>
+            <h3 className="text-3xl pb-5">Meet Our Expert Team</h3>
+            <p>
+              Proin ullamcorper pretium orci. Donec necscele risque leo. Nam
+              massa dolor imperdiet neccon sequata congue idsem. Maecenas
+              malesuada faucibus finibus.
+            </p>
+            <p className="pt-9 pb-9">
+              Proin ullamcorper pretium orci. Donec necscele risque leo. Nam
+              massa dolor imperdiet neccon sequata congue idsem. Maecenas
+              malesuada faucibus finibus.
+            </p>
+            <button className="py-2 px-3 bg-blue-500 text-white rounded-2xl hover:bg-transparent hover:text-black transform duration-500">
+              View All Members
+            </button>
+          </div>
+          <div className="grid grid-cols-2  pt-15">
+            <div className="pr-5">
+              <img
+                src="https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=612x612&w=0&k=20&c=JESGRQ2xqRH9ZcJzvZBHZIZKVY8MDejBSOfxeM-i5e4="
+                alt=""
+                className="rounded-2xl  "
+              />
+            </div>
+            <div className="pr-5">
+              <img
+                src="https://media.istockphoto.com/id/1552881556/photo/tablet-designer-and-serious-woman-research-in-business-startup-office-at-night-on-deadline.jpg?s=612x612&w=0&k=20&c=VuJg-jHVopY6qqgYtHgO7PG5Mdk74rbV7cdMxEf8950="
+                alt=""
+                className="rounded-2xl hidden lg:block"
+              />
+            </div>
+          </div>
         </div>
-        <div className="grid grid-cols-2  pt-15">
-         <div className="pr-5">
-           <img
-            src="https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=612x612&w=0&k=20&c=JESGRQ2xqRH9ZcJzvZBHZIZKVY8MDejBSOfxeM-i5e4="
-            alt=""
-            className="rounded-2xl  "
-          />
-         </div>
-         <div className="pr-5">
-           <img
-            src="https://media.istockphoto.com/id/1552881556/photo/tablet-designer-and-serious-woman-research-in-business-startup-office-at-night-on-deadline.jpg?s=612x612&w=0&k=20&c=VuJg-jHVopY6qqgYtHgO7PG5Mdk74rbV7cdMxEf8950="
-            alt=""
-            className="rounded-2xl hidden lg:block"
-          />
-         </div>
-         
-        </div>
-        
       </div>
-     </div>
 
-
-     <div className="w-9/12 mx-auto pt-20 pb-20">
-      <img src="/imgabout/Footer.png" alt="" />
-     </div>
+      <div className="w-9/12 mx-auto pt-20 pb-20">
+        <img src="/imgabout/Footer.png" alt="" />
+      </div>
     </>
   );
 }
