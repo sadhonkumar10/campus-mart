@@ -55,7 +55,7 @@ export default function CarocelProject() {
           </span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {project.slice(0, 8).map((item, index) => (
             <div
               key={index}
@@ -96,10 +96,10 @@ export default function CarocelProject() {
 
                 <div className="flex justify-between items-center mt-3">
                   <p className="font-bold text-green-600 text-lg">
-                    ${item.currentPrice}
+                    BDT {item.currentPrice}
                     {item.oldPrice && (
                       <span className="line-through text-gray-400 text-sm ml-2">
-                        ${item.oldPrice}
+                        BDT {item.oldPrice}
                       </span>
                     )}
                   </p>
@@ -161,10 +161,10 @@ export default function CarocelProject() {
             <p className="text-gray-600 mb-2">⭐ {selectedProduct.rating}</p>
 
             <p className="text-xl font-bold text-green-600 mb-3">
-              ${selectedProduct.currentPrice}
+              BDT {selectedProduct.currentPrice}
               {selectedProduct.oldPrice && (
                 <span className="line-through text-gray-400 text-sm ml-2">
-                  ${selectedProduct.oldPrice}
+                  BDT {selectedProduct.oldPrice}
                 </span>
               )}
             </p>

@@ -157,7 +157,7 @@ export default function DepartmentBooks() {
                 <h3 className="font-semibold text-lg">{book.name}</h3>
                 <p className="text-gray-600 text-sm">Code: {book.code}</p>
                 <p className="text-gray-800 font-bold mt-1">
-                  Price: ${book.price}
+                  Price: BDT {book.price}
                 </p>
                 <p className="text-blue-700 font-semibold">
                   {book.publication}

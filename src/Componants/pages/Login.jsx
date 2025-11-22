@@ -8,9 +8,10 @@ export default function Login() {
   const { login } = useContext(UserContext);
   const navigate = useNavigate();
 
+  // Default email & password
   const [input, setInput] = useState({
-    email: "",
-    password: "",
+    email: "sadhonkumardey750@gmail.com",
+    password: "632571",
   });
 
   const [error, setError] = useState("");
@@ -92,12 +93,11 @@ export default function Login() {
 
         <p className="text-center text-white/90 mt-4 text-sm">
           Don't have an account?
-         <Link to='/contact'>
-          <span className="cursor-pointer text-yellow-300 hover:underline ml-1">
-            Contact Admin
-          </span>
-         
-         </Link>
+          <Link to='/contact'>
+            <span className="cursor-pointer text-yellow-300 hover:underline ml-1">
+              Contact Admin
+            </span>
+          </Link>
         </p>
       </div>
     </div>

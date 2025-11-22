@@ -12,9 +12,12 @@ export default function Nav({ cartCount }) {
   return (
     <div className="sticky top-0 w-full bg-white shadow-md z-50 transition-all">
       <div className="navbar container mx-auto px-6 md:px-10 flex justify-between items-center h-20">
+       <Link to='/'>
         <div className="flex items-center gap-3">
           <img src="/campus-logo.png" alt="logo" className="h-[60px]" />
         </div>
+       
+       </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-semibold text-gray-700">
@@ -67,7 +70,7 @@ export default function Nav({ cartCount }) {
                 <div className="w-10 rounded-full">
                   <img
                     alt="User"
-                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    src="/campus-logo.png"
                   />
                 </div>
               </div>

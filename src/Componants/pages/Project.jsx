@@ -122,7 +122,7 @@ export default function Project() {
       </div>
 
       {/* Project Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProjects.map((item) => (
           <div
             key={item.id}
@@ -148,10 +148,10 @@ export default function Project() {
               </h3>
               <div className="flex justify-between items-center">
                 <p className="font-bold text-green-600 text-lg">
-                  ${item.currentPrice}
+                  BDT {item.currentPrice}
                   {item.oldPrice && (
                     <span className="text-sm text-gray-400 line-through ml-2">
-                      ${item.oldPrice}
+                      BDT {item.oldPrice}
                     </span>
                   )}
                 </p>
@@ -160,7 +160,7 @@ export default function Project() {
                     e.stopPropagation(); // prevent modal open
                     handleAddToCart(item);
                   }}
-                  className="bg-blue-500 text-white px-4 py-1 rounded-xl hover:bg-blue-600 transition-all duration-300"
+                  className="bg-blue-500 text-white px-4 py-1 rounded-xl hover:bg-blue-600 transition-all duration-300 cursor-pointer"
                 >
                   Add
                 </button>
@@ -172,8 +172,8 @@ export default function Project() {
 
       {/* Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 backdrop-blur-sm  bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-2xl w-11/12 md:w-2/3 lg:w-1/2 p-6 relative">
+        <div className="fixed inset-0 backdrop-blur  bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-2xl w-11/12 md:w-2/3 lg:w-1/2 p-6 relative shadow-blue-400 border-2 border-gray-400">
             <button
               className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-2xl font-bold"
               onClick={() => setSelectedProject(null)}
@@ -192,10 +192,10 @@ export default function Project() {
                   <h3 className="font-bold text-2xl my-2">{selectedProject.productName}</h3>
                   <p className="text-gray-700 mb-4">{selectedProject.description}</p>
                   <p className="font-bold text-green-600 text-lg">
-                    ${selectedProject.currentPrice}
+                    BDT{selectedProject.currentPrice}
                     {selectedProject.oldPrice && (
                       <span className="text-sm text-gray-400 line-through ml-2">
-                        ${selectedProject.oldPrice}
+                        BDT{selectedProject.oldPrice}
                       </span>
                     )}
                   </p>

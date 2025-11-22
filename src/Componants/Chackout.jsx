@@ -2,7 +2,7 @@ import React from "react";
 import { useOutletContext, useNavigate } from "react-router";
 import toast, { Toaster } from "react-hot-toast";
 
-export default function CheckoutPage() {
+export default function Chackout() {
   const { cart, setCart } = useOutletContext();
   const navigate = useNavigate();
 

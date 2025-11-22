@@ -11,53 +11,50 @@ import Chackout from "./Componants/Chackout";
 import Login from "./Componants/pages/Login";
 import BlogSection from "./Componants/Blog";
 
-
-const router= createBrowserRouter([
-
-    {
-        path:'/',
-        element: <Root/>,
-        children:[
-            {
-                path:'/',
-                element:<Home/> 
-            },
-             {
-                path:'/about',
-                element: <About/> 
-            },
-             {
-                path:'/departmentBooks',
-                loader: () => fetch("/Books.json"),
-                element: <DepartmentBooks  /> 
-            },
-            {
-                path:'/project',
-                loader: () => fetch("/Project.json"),
-                element:  <Project/>
-            },
-            {
-                path:'/contact',
-                element: <Contact/>
-            },
-             {
-                path:'/cart',
-                element: <Cart/>
-            },
-            {
-                path:'/chackout',
-                element: <Chackout/>
-            },
-            {
-                path:'/login',
-                element:<Login/>
-            },
-             {
-                path:'/Blog',
-                element:<BlogSection/>
-            }
-        ]
-    }
-    
-])
-export default router
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/departmentBooks",
+        loader: () => fetch("/Books.json"),
+        element: <DepartmentBooks />,
+      },
+      {
+        path: "/project",
+        loader: () => fetch("/Project.json"),
+        element: <Project />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/checkout",
+        element: <Chackout />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
+      },
+      {
+        path: "/Blog",
+        element: <BlogSection />,
+      },
+    ],
+  },
+]);
+export default router;
