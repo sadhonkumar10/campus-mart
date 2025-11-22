@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { useOutletContext } from "react-router";
+import { Link, useOutletContext } from "react-router";
 import { UserContext } from "../UserContext"; 
 import toast from "react-hot-toast"; 
 
@@ -122,17 +122,16 @@ export default function CarocelProject() {
 
         {/* More Button */}
         <div className="text-center py-12">
+          <Link to='/project'>
           <button
-            onClick={() => {
-              setSelectedProduct(project[0]);
-              setIsModalOpen(true);
-            }}
+            
             className="py-3 px-10 text-lg bg-linear-to-r from-indigo-500 via-purple-500 to-sky-500
                                text-white font-bold rounded-2xl shadow-xl hover:shadow-2xl 
-                               hover:scale-105 active:scale-95 transition-all duration-300"
+                               hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer"
           >
             See More Projects
           </button>
+          </Link>
         </div>
       </div>
 
